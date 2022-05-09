@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Topheader from './Components/Includes/Topheader';
+import Home from './Components/Home/Home';
+// import FixedIcons from './Components/Includes/FixedIcons';
+import Footer from './Components/Includes/Footer';
+import About from './Components/Includes/About';
+import QuietEarth from './Components/InThatQuietEarth/QuietEarth.jsx';
+import Pursuit from './Components/Pusuit/Pursuit';
+import Windmill from './Components/Windmill/Windmill';
+import Rain from './Components/AfterTheRain/Rain';
+import LearningFly from './Components/LearningToFly/LearningFly';
+import MagicTree from './Components/TheMagicFarawayTree/MagicTree';
+// import Workations from './Components/TotalEnvironmentWorkations/Workations';
+import Contact from './Components/Includes/Contact';
+import Workations from './Components/TotalEnvironmentWorkations/Workations';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <Topheader />
+    <Routes>
+      <Route path="/" index element={<Home />}></Route>
+      <Route path="/about" element={<About />}></Route>
+      <Route path="/projects/quiet-earth" element={<QuietEarth />}></Route>      
+      <Route path="/projects/pursuit" element={<Pursuit />}></Route>           
+      <Route path="/projects/windmill" element={<Windmill />}></Route>      
+      <Route path="/projects/rain" element={<Rain />}></Route>    
+      <Route path="/projects/learning-fly" element={<LearningFly />}></Route>      
+      <Route path="/projects/magic-tree" element={<MagicTree />}></Route> 
+      <Route path="/projects/workations" element={<Workations />}></Route>
+      <Route path="/contact" element={<Contact />}></Route>
+    </Routes>  
+    {/* <FixedIcons /> */}
+    <Footer />
+</Router>
   );
 }
 
