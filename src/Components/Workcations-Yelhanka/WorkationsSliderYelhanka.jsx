@@ -7,9 +7,9 @@ import Image1 from "../Images/projects/learning-to-fly/slider/image-1.png";
 import Image2 from "../Images/projects/learning-to-fly/slider/image-2.png";
 import Image3 from "../Images/projects/learning-to-fly/slider/image-3.png";
 import Logo from "../Images/logo-1.png"
-import LearningFlyModal from "./LearningFlyModal";
+import WorkationsModalYelhanka from "./WorkationsModalYelhanka";
 
-const LearningFlySlider = () => {
+const WorkationsSliderYelhanka = () => {
 
     const [show, setShow] = useState(false);
 
@@ -54,7 +54,9 @@ const LearningFlySlider = () => {
       },
     },
   };
-  return ( <div>
+  return ( 
+  <div>
+    
     <OwlCarousel options={options}>
       {associations.map((item, index) => (
         <div className="mx-2" key={index}>
@@ -92,9 +94,9 @@ const LearningFlySlider = () => {
             <Row className="">
               <Col md={8} className="">
                 <div className="m-1 text-center text-md-start">
-                  <h1 className="fs-2">Total Environment Learning To Fly</h1>
+                  <h1 className="fs-2">Total Environment Total Environment Workcation</h1>
                   <p className="m-0">
-                    <p className="text-center text-md-start mb-0"> JP Nagar, South Bangalore</p>
+                    <p className="text-center text-md-start mb-0">Yelhanka, Bangalore</p>
                   </p>
                 </div>
               </Col>
@@ -115,7 +117,7 @@ const LearningFlySlider = () => {
       </Container>
     </div>
 
-    <LearningFlyModal
+    <WorkationsModalYelhanka
       show={show}
       handleClose={handleClose}
       title="Download Brouchure"
@@ -124,4 +126,4 @@ const LearningFlySlider = () => {
   )
 }
 
-export default LearningFlySlider
+export default WorkationsSliderYelhanka

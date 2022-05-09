@@ -2,14 +2,14 @@ import React from 'react'
 import { Card, Col, Container, Row, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import image1 from '../Images/slider/quiet.png';
-import image2 from '../Images/slider/pursuit.png';
+import image2 from '../Images/slider/windmill.png';
 import image3 from '../Images/slider/rain.png';
 import image4 from '../Images/slider/fly.png';
-import image5 from '../Images/slider/fairaway.png';
-import image6 from '../Images/slider/workcations.png'
+import image5 from '../Images/slider/pursuit.png';
+import image6 from '../Images/slider/fairaway.png'
 import image7 from '../Images/slider/workcations.png'
 
-const OtherProjectsWindmill = () => {
+const OtherProjectsWorkationsYelhanka = () => {
 
     const projects = [{ 
         id: 1, 
@@ -20,10 +20,10 @@ const OtherProjectsWindmill = () => {
     
     },
     { id: 2, 
-        title: " Total Environment Pursuit Of A Radical Rhapsody",
+        title: " Total Environment Windmill Of Your Mind",
         description: "Luxury Apartments & Villas in Whitefield, East Bangalore",
         imageurl: image2,
-        link: "/projects/pursuit",
+        link: "/projects/windmill",
     },
     { id: 3, 
         title: " Total Environment After The Rain",
@@ -38,25 +38,25 @@ const OtherProjectsWindmill = () => {
         link: "/projects/learning-fly",
     },
     { id: 5, 
-        title: " Total Environment The Magic Faraway Tree",
-        description: "Luxury Apartments in Kanakapura Road, South Bangalore",
+        title: " Total Environment Pursuit Of A Radical Rhapsody",
+        description: "Luxury Apartments & Villas in Whitefield, East Bangalore",
         imageurl: image5,
-        link: "/projects/magic-tree",
+        link: "/projects/pursuit",
     },
     { id: 6, 
-        title: " Total Environment Workcations",
-        description: "Pre Launch Commercial Development in Yelhanka, East Bangalore",
+        title: " Total Environment The Magic Faraway Tree",
+        description: "Luxury Apartments in Kanakapura Road, South Bangalore",
         imageurl: image6,
-        link: "/projects/workcations-yelhanka",
+        link: "/projects/magic-tree",
     },
-    
-    { id: 7, 
-      title: " Total Environment Workcations",
-      description: "Pre Launch Commercial Development in Whitefield, East Bangalore",
-      imageurl: image7,
-      link: "/project/workations",
-  },
-    
+  
+  
+  { id: 7, 
+    title: " Total Environment Workcations",
+    description: "Pre Launch Commercial Development in Whitefield, East Bangalore",
+    imageurl: image7,
+    link: "/projects/workations",
+},
     
     ];
 
@@ -93,4 +93,4 @@ const OtherProjectsWindmill = () => {
   )
 }
 
-export default OtherProjectsWindmill
+export default OtherProjectsWorkationsYelhanka

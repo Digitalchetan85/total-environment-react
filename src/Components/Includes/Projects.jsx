@@ -15,6 +15,7 @@ import image4 from "../Images/slider/rain.png"
 import image5 from "../Images/slider/fly.png"
 import image6 from "../Images/slider/fairaway.png"
 import image7 from "../Images/slider/workcations.png"
+import image8 from "../Images/slider/workcations.png"
 
 
 const Projects = () => {
@@ -57,10 +58,17 @@ const Projects = () => {
     link: "/projects/magic-tree"
 },
 { id: 7, 
-    title: "Total Environment Workcations - Pursuit Of A Radical Rhapsody Commercial",
-    description: "Pre Launch Commercial Development in Whitefield, East Bangalore",
+    title: "Total Environment Workcations - Yelhanka",
+    description: "Pre Launch Commercial Development in Yelhanka, Bangalore",
     imageurl: image7,
     link: "/projects/workations"
+},
+
+{ id: 8, 
+  title: "Total Environment Workcations - WhiteField",
+  description: "Pre Launch Commercial Development in Whitefield, Bangalore",
+  imageurl: image8,
+  link: "/projects/workations"
 },
 
 

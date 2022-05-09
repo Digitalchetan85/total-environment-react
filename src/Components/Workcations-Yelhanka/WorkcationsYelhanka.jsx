@@ -2,21 +2,19 @@ import React from "react";
 import { Col, Container, Row, Table } from "react-bootstrap";
 import Contact from "../Includes/Contact";
 import Info from "../Includes/Info";
-import OtherProjectsWorkations from "./OtherProjectsWorkations";
-import WorkationsGallery from "./Workations";
-import WorkationsLocation from "./Workations";
-import WorkationsMasterPlan from "./WorkationsMasterPlan";
-import WorkationsPrice from "./WorkationsPrice";
-import WorkationsSlider from "./WorkationsSlider";
+import OtherProjectsWorkationsYelhanka from "./OtherProjectsWorkationsYelhanka";
+import WorkationsSliderYelhanka from "./WorkationsSliderYelhanka";
+import WorkationsPriceYelhanka from "./WorkationsPriceYelhanka";
+import WorkationsMasterPlanYelhanka from "./WorkationsMasterPlanYelhanka";
 
-const Workations = () => {
+const WorkcationsYelhanka = () => {
   return (
     <div>
-      <WorkationsSlider />
+      <WorkationsSliderYelhanka />
       <Container fluid>
         <Row>
           <Col md={9} className="">
-            <div id="overview" className="py-3 py-md-3 bg-light">
+            <div id="overview" className="py-5 py-md-5 bg-light">
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <h2 className="pb-2 text-center py-2 py-md-5 fs-3">
@@ -62,7 +60,7 @@ const Workations = () => {
                   <Col md={12}>
                     <h2 className="py-3 text-center fs-4">
                       About Total Environment Total Environment Workcations -
-                      Whitefield
+                      Yelhanka
                     </h2>
                     <p>
                       A traditional office is where you check in at 9, check out
@@ -153,7 +151,7 @@ const Workations = () => {
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <Col md={12}>
-                    <WorkationsMasterPlan />
+                    <WorkationsMasterPlanYelhanka />
                   </Col>
                 </Row>
               </Container>
@@ -187,10 +185,10 @@ const Workations = () => {
             <div className="py-3 py-md-5" id="pricing">
               <Container fluid className="ps-0 pe-0">
                 <Row>
-                  <WorkationsPrice />
+                  <WorkationsPriceYelhanka />
                   <Info />
-                  {/* <WorkationsGallery /> */}
-                  {/* <WorkationsLocation /> */}
+                  {/* <WorkationsGalleryYelhanka /> */}
+                  {/* <WorkationsLocationYelhanka /> */}
                   {/* <VirtualTour /> */}
                 </Row>
               </Container>
@@ -201,11 +199,11 @@ const Workations = () => {
           </Col>
         </Row>
       </Container>
-      <OtherProjectsWorkations />
+      <OtherProjectsWorkationsYelhanka />
 
       {/* <FixedIcons /> */}
     </div>
   );
 };
 
-export default Workations;
+export default WorkcationsYelhanka;

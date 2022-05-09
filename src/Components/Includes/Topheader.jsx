@@ -159,7 +159,7 @@ const Topheader = () => {
                 id="collasible-nav-dropdown1"
                 className=""
               >
-                <NavDropdown.Item as={Link} to="/projects/workations">
+                <NavDropdown.Item as={Link} to="/projects/workcations-yelhanka">
                   Workation - Yelahanka
                 </NavDropdown.Item>
                 <NavDropdown.Divider />

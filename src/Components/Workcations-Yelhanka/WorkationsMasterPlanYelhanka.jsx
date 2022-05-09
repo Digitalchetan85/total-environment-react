@@ -1,10 +1,12 @@
 import { Tab } from 'bootstrap';
 import React, { useState } from 'react'
 import { Tabs } from 'react-bootstrap';
-import WorkationsFloorImages from './WorkationsFloorImages';
-import WorkationsMasterPlanImages from './WorkationsMasterPlanImages';
+import WorkationsFloorImagesYelhanka from './WorkationsFloorImagesYelhanka';
+import WorkationsFloorImages from './WorkationsFloorImagesYelhanka';
+import WorkationsMasterPlanImagesYelhanka from './WorkationsMasterPlanImagesYelhanka';
+import WorkationsMasterPlanImages from './WorkationsMasterPlanImagesYelhanka';
 
-const WorkationsMasterPlan = () => {
+const WorkationsMasterPlanYelhanka = () => {
     
   const [key, setKey] = useState("all");
   return (
@@ -19,14 +21,14 @@ const WorkationsMasterPlan = () => {
         className="mb-3 text-dark"
       >
         <Tab eventKey="all" title="Master Plan" className="text-dark">
-          <WorkationsMasterPlanImages />
+          <WorkationsMasterPlanImagesYelhanka />
         </Tab>
         <Tab eventKey="matster-plan" title="Floor Plan" className="text-dark">
-        < WorkationsFloorImages />
+        < WorkationsFloorImagesYelhanka />
         </Tab>
       </Tabs>
     </div>
   )
 }
 
-export default WorkationsMasterPlan
+export default WorkationsMasterPlanYelhanka

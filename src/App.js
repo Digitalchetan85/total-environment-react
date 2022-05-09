@@ -14,6 +14,7 @@ import MagicTree from './Components/TheMagicFarawayTree/MagicTree';
 // import Workations from './Components/TotalEnvironmentWorkations/Workations';
 import Contact from './Components/Includes/Contact';
 import Workations from './Components/TotalEnvironmentWorkations/Workations';
+import WorkcationsYelhanka from './Components/Workcations-Yelhanka/WorkcationsYelhanka';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       <Route path="/projects/rain" element={<Rain />}></Route>    
       <Route path="/projects/learning-fly" element={<LearningFly />}></Route>      
       <Route path="/projects/magic-tree" element={<MagicTree />}></Route> 
-      <Route path="/projects/workations" element={<Workations />}></Route>
+      <Route path="/projects/workations" element={<Workations />}></Route>      
+      <Route path="/projects/workcations-yelhanka" element={<WorkcationsYelhanka />}></Route>
       <Route path="/contact" element={<Contact />}></Route>
     </Routes>  
     {/* <FixedIcons /> */}

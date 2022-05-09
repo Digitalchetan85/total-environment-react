@@ -22,6 +22,11 @@ $black-color: #000;
 $tertiary-color: #9D9E9E;
 $dark-color: #001524;
 
+
+#custom-content {
+  z-index: 1;
+}
+
 #navbar {
   .nav-link {
     padding: 0px 25px;
@@ -205,6 +210,7 @@ p {
     }
   }
   #custom-content {
+    z-index: 1;
     .container {
       position: static !important;
       transform: translate(0)!important;

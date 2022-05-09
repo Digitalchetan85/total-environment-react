@@ -1,61 +1,61 @@
 import React, { useState } from "react";
 import { Container, Col, Image, Row, Button } from "react-bootstrap";
-// import OwlCarousel from "react-owl-carousel2";
-// import "react-owl-carousel2/src/owl.carousel.css";
-// import "react-owl-carousel2/src/owl.theme.default.css";
-// import Image1 from "../../images/slider/aspen-greens/aspen-greens-1.png";
-// import Image2 from "../../images/slider/aspen-greens/aspen-greens-2.png";
-// import Image3 from "../../images/slider/aspen-greens/aspen-greens-3.png";
-// import Logo from "../../images/projects/aspen-greens-@-the-prestige-city-logo.png"
+import OwlCarousel from "react-owl-carousel2";
+import "react-owl-carousel2/src/owl.carousel.css";
+import "react-owl-carousel2/src/owl.theme.default.css";
+import Image1 from "../Images/projects/after-rain/slider/image-1.png";
+import Image2 from "../Images/projects/after-rain/slider/image-2.png";
+import Image3 from "../Images/projects/after-rain/slider/image-3.png";
+import Logo from "../Images/logo-1.png"
+import WorkationsModal from "./WorkationsModal";
 
 const WorkationsSlider = () => {
 
-  //   const [show, setShow] = useState(false);
+    const [show, setShow] = useState(false);
 
-  // const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
-  // const associations = [
-  //   {
-  //     id: 1,
-  //     ImageUrl: Image1,
-  //     alt: "",
-  //   },
-  //   {
-  //     id: 2,
-  //     ImageUrl: Image2,
-  //     alt: "",
-  //   },
-  //   {
-  //     id: 3,
-  //     ImageUrl: Image3,
-  //     alt: "",
-  //   },
-  // ];
+  const associations = [
+    {
+      id: 1,
+      ImageUrl: Image1,
+      alt: "",
+    },
+    {
+      id: 2,
+      ImageUrl: Image2,
+      alt: "",
+    },
+    {
+      id: 3,
+      ImageUrl: Image3,
+      alt: "",
+    },
+  ];
 
-  // const options = {
-  //   rewind: true,
-  //   dots: false,
-  //   autoplay: true,
-  //   responsive: {
-  //     0: {
-  //       items: 1,
-  //       nav: false,
-  //     },
-  //     600: {
-  //       items: 1,
-  //       nav: false,
-  //     },
-  //     1000: {
-  //       items: 2,
-  //       nav: false,
-  //       loop: false,
-  //     },
-  //   },
-  // };
+  const options = {
+    rewind: true,
+    dots: false,
+    autoplay: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: false,
+      },
+      600: {
+        items: 1,
+        nav: false,
+      },
+      1000: {
+        items: 2,
+        nav: false,
+        loop: false,
+      },
+    },
+  };
   return ( <div>
-    <h3>Slider</h3>
-    {/* <OwlCarousel options={options}>
+    <OwlCarousel options={options}>
       {associations.map((item, index) => (
         <div className="mx-2" key={index}>
           <Row>
@@ -92,9 +92,9 @@ const WorkationsSlider = () => {
             <Row className="">
               <Col md={8} className="">
                 <div className="m-1 text-center text-md-start">
-                  <h1 className="text-primary fs-2">Aspen Greens - Prestige City</h1>
+                  <h1 className="fs-2">Total Environment Total Environment Workcations</h1>
                   <p className="m-0">
-                    <p className="text-center text-md-start mb-0">Sarjapur Main Road, Bangalore</p>
+                    <p className="text-center text-md-start mb-0">Whitefield, Bangalore</p>
                   </p>
                 </div>
               </Col>
@@ -119,7 +119,7 @@ const WorkationsSlider = () => {
       show={show}
       handleClose={handleClose}
       title="Download Brouchure"
-    /> */}
+    />
   </div>
   )
 }

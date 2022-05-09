@@ -16,7 +16,7 @@ const Rain = () => {
       <Container fluid>
         <Row>
           <Col md={9} className="">
-            <div id="overview" className="py-3 py-md-3 bg-light">
+            <div id="overview" className="py-5 py-md-5 bg-light">
               <Container fluid className="ps-0 pe-0">
                 <Row>
                 <h2 className="pb-2 text-center py-2 py-md-5 fs-3">

@@ -7,6 +7,7 @@ import image3 from '../Images/slider/rain.png';
 import image4 from '../Images/slider/fly.png';
 import image5 from '../Images/slider/pursuit.png';
 import image6 from '../Images/slider/fairaway.png'
+import image7 from '../Images/slider/workcations.png'
 
 const OtherProjectsWorkations = () => {
 
@@ -44,11 +45,18 @@ const OtherProjectsWorkations = () => {
     },
     { id: 6, 
         title: " Total Environment The Magic Faraway Tree",
-        description: "Pre Launch Commercial Development in Whitefield, East Bangalore",
+        description: "Luxury Apartments in Kanakapura Road, South Bangalore",
         imageurl: image6,
         link: "/projects/magic-tree",
     },
-    
+  
+  
+  { id: 7, 
+    title: " Total Environment Workcations",
+    description: "Pre Launch Commercial Development in Yelhanka, East Bangalore",
+    imageurl: image7,
+    link: "/projects//workcations-yelhanka",
+},
     
     ];
 
