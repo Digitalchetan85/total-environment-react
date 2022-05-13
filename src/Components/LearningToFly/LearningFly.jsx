@@ -8,6 +8,7 @@ import LearningFlyGallery from "./LearningFlyGallery";
 import LearningFlyPrice from "./LearningFlyPrice";
 import LearningFlyMasterPlan from "./LearningFlyMasterPlan";
 import LearningFlySlider from "./LearningFlySlider";
+import LearningFlyFloorImages from "./LearningFlyFloorImages";
 
 const LearningFly = () => {
   return (
@@ -142,8 +143,9 @@ const LearningFly = () => {
             <div className="py-3 py-md-5 bg-light" id="master-plan">
               <Container fluid className="ps-0 pe-0">
                 <Row>
+                  <h2 className="text-center">Floor Plan</h2>
                   <Col md={12}>
-                    <LearningFlyMasterPlan />
+                    <LearningFlyFloorImages />
                   </Col>
                 </Row>
               </Container>

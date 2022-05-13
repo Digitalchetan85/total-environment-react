@@ -34,7 +34,7 @@ const WindmillPrice = () => {
               <tbody>
                 <tr>
                   <td>4 BHK Duplex (D60)</td>
-                  <td>5924, 7648 </td>
+                  <td>5964 </td>
                   <td>6.4 Cr Onwards</td>
                   <td>
                     <Button

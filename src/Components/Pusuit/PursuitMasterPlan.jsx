@@ -19,7 +19,7 @@ const PursuitMasterPlan = () => {
         className="mb-3 text-dark"
       >
         <Tab eventKey="all" title="Master Plan" className="text-dark">
-          {/* <PursuitMasterPlanImages /> */}
+          <PursuitMasterPlanImages />
         </Tab>
         <Tab eventKey="matster-plan" title="Floor Plan" className="text-dark">
         < PursuitFloorImages/>

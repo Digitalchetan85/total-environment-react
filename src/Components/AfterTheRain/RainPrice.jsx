@@ -32,8 +32,8 @@ const RainPrice = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>4 BHK (V30)</td>
-                  <td>3184 - 3310  </td>
+                  <td>3 BHK (V30)</td>
+                  <td>3200  </td>
                   <td>5.17 Cr Onwards</td>
                   <td>
                     <Button

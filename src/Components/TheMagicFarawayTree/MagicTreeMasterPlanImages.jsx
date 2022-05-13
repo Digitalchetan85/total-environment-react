@@ -1,13 +1,14 @@
 import React from 'react'
-import { Col, Container, Image, Row } from 'react-bootstrap';
+// import { Col, Container, Image, Row } from 'react-bootstrap';
+// import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox';
 
-const PursuitMasterPlanImages = () => {
+const MagicTreeMasterPlanImages = () => {
 
-//   const images = [
-//     // { id: 1, imgName: Image1, alt: "", tag: "Master Plan" },
-//     // { id: 2, imgName: Image2, alt: "", tag: "Numbering Plan" },];
+  // const images = [
 
-  return (
+    // { id: 1, imgName: Image1, alt: "", tag: "Master Plan" },];
+
+  return  (
     <div>
 
       {/* <Container fluid className="ps-0 pe-0">
@@ -36,4 +37,4 @@ const PursuitMasterPlanImages = () => {
   )
 }
 
-export default PursuitMasterPlanImages
+export default MagicTreeMasterPlanImages

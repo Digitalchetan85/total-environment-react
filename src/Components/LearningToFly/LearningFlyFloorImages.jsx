@@ -1,20 +1,23 @@
 import React from 'react'
+import Image1 from "../Images/projects/learning-to-fly/floor-plan/floor-plan-1.png"
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox';
 
-const PursuitFloorImages = () => {
 
-  //   const images = [
-  //     // { id: 1, imgName: Image1, alt: "", tag: "Master Plan" },
-  //     // { id: 2, imgName: Image2, alt: "", tag: "Numbering Plan" },];
+const LearningFlyFloorImages = () => {
+
+    const images = [
+      { id: 1, imgName: Image1, alt: "", tag: "Floor Plan" },];
   
     return (
       <div>
   
-        {/* <Container fluid className="ps-0 pe-0">
+        <Container fluid className="ps-0 pe-0">
           <SimpleReactLightbox>
             <SRLWrapper>
-              <Row className="g-3">
+              <Row className="g-3 justify-content-center">
                 {images.map((item) => (
-                  <Col md={3} xs={6} sm={6} key={item.id}>
+                  <Col md={8} xs={6} sm={6} key={item.id}>
                     <div className="m-1 text-center border border-dark p-1 rounded">
                       <a href={item.imgName}>
                         <Image
@@ -30,9 +33,9 @@ const PursuitFloorImages = () => {
               </Row>
             </SRLWrapper>
           </SimpleReactLightbox>
-        </Container> */}
+        </Container>
       </div>
     )
 }
 
-export default PursuitFloorImages
+export default LearningFlyFloorImages

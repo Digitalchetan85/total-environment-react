@@ -32,9 +32,25 @@ const PursuitPrice = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>3 BHK (C20 / L30) </td>
-                  <td>2753 - 4100 </td>
+                  <td>3 BHK (C20) </td>
+                  <td>2753</td>
                   <td>2.99 Cr Onwards</td>
+                  <td>
+                    <Button
+                      variant="dark"
+                      size="sm"
+                      onClick={handleShow}
+                      className="my-3 custom-button"
+                    >
+                      <i className="fa fa-spinner fa-flip fa-download"></i> Price Sheet
+                    </Button>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td>3 BHK ( L30) </td>
+                  <td>4100 </td>
+                  <td>4.43 Cr Onwards</td>
                   <td>
                     <Button
                       variant="dark"

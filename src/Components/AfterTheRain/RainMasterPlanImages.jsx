@@ -1,16 +1,17 @@
 import React from 'react'
 import { Col, Container, Image, Row } from 'react-bootstrap';
+import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox';
+import Image1 from "../Images/projects/after-rain/floor-plans/floor-plan-1"
 
-const PursuitMasterPlanImages = () => {
+const RainMasterPlanImages = () => {
 
-//   const images = [
-//     // { id: 1, imgName: Image1, alt: "", tag: "Master Plan" },
-//     // { id: 2, imgName: Image2, alt: "", tag: "Numbering Plan" },];
+  const images = [
+    { id: 1, imgName: Image1, alt: "", tag: "Master Plan" },];
 
   return (
     <div>
 
-      {/* <Container fluid className="ps-0 pe-0">
+      <Container fluid className="ps-0 pe-0">
         <SimpleReactLightbox>
           <SRLWrapper>
             <Row className="g-3">
@@ -31,9 +32,9 @@ const PursuitMasterPlanImages = () => {
             </Row>
           </SRLWrapper>
         </SimpleReactLightbox>
-      </Container> */}
+      </Container>
     </div>
   )
 }
 
-export default PursuitMasterPlanImages
+export default RainMasterPlanImages

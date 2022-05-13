@@ -68,7 +68,7 @@ const Contact = () => {
               onSubmit={onSubmit}
             >
               <Form className="bg-white p-3 rounded shadow">
-                <h4 className="py-3 text-center text-primary">
+                <h4 className="py-3 text-center">
                   Get Our Experts Call
                 </h4>
                 <Row className="mb-3">

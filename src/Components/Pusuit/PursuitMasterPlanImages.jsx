@@ -1,19 +1,19 @@
 import React from 'react'
 import { Col, Container, Image, Row } from 'react-bootstrap';
+import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox';
+import Image1 from "../Images/projects/pursuit/floor-plans/pusuit-master.png"
 
 const PursuitMasterPlanImages = () => {
 
-//   const images = [
-//     // { id: 1, imgName: Image1, alt: "", tag: "Master Plan" },
-//     // { id: 2, imgName: Image2, alt: "", tag: "Numbering Plan" },];
+  const images = [
+    { id: 1, imgName: Image1, alt: "", tag: "Master Plan" },];
 
   return (
     <div>
-
-      {/* <Container fluid className="ps-0 pe-0">
+      <Container fluid className="ps-0 pe-0">
         <SimpleReactLightbox>
           <SRLWrapper>
-            <Row className="g-3">
+            <Row className="g-3 justify-content-center">
               {images.map((item) => (
                 <Col md={3} xs={6} sm={6} key={item.id}>
                   <div className="m-1 text-center border border-dark p-1 rounded">
@@ -31,7 +31,7 @@ const PursuitMasterPlanImages = () => {
             </Row>
           </SRLWrapper>
         </SimpleReactLightbox>
-      </Container> */}
+      </Container>
     </div>
   )
 }

@@ -9,7 +9,7 @@ const RainMasterPlan = () => {
   return (
     <div>
       <h2 className="pt-2 pb-2 text-center fs-4">
-        Master & Floor Plans
+        Floor Plans
       </h2>
       <Tabs
         id="controlled-tab-example"
@@ -17,9 +17,6 @@ const RainMasterPlan = () => {
         onSelect={(k) => setKey(k)}
         className="mb-3 text-dark"
       >
-        <Tab eventKey="all" title="Master Plan" className="text-dark">
-          {/* <RainMasterPlanImages /> */}
-        </Tab>
         <Tab eventKey="matster-plan" title="Floor Plan" className="text-dark">
         < RainFloorImages/>
         </Tab>

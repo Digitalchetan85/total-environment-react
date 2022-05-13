@@ -3,6 +3,7 @@ import { Col, Container, Row, Table } from "react-bootstrap";
 import Contact from "../Includes/Contact";
 import Info from "../Includes/Info";
 import OtherProjectsRain from "./OtherProjectsRain";
+import RainFloorImages from "./RainFloorImages";
 import RainGallery from "./RainGallery";
 import RainLocation from "./RainLocation";
 import RainMasterPlan from "./RainMasterPlan";
@@ -83,8 +84,9 @@ PRM/KA/RERA/1251/309/PR/191015/002923
             <div className="py-3 py-md-5 bg-light" id="master-plan">
               <Container fluid className="ps-0 pe-0">
                 <Row>
+                  <h2 className="text-center py-2"> Floor Plans</h2>
                   <Col md={12}>
-                    <RainMasterPlan />
+                    <RainFloorImages />
                   </Col>
                 </Row>
               </Container>
