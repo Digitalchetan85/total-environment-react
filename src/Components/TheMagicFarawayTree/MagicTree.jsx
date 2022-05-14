@@ -142,7 +142,7 @@ const MagicTree = () => {
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <Col md={12}>
-                    <MagicTreeFloorImages />
+                    <MagicTreeMasterPlan />
                   </Col>
                 </Row>
               </Container>

@@ -65,11 +65,13 @@ const WorkcationsYelhanka = () => {
                     <p>
                       A traditional office is where you check in at 9, check out
                       at 5, and count the days to weekends and vacations. But it
-                      doesn’t have to be that way. At Total Environment, we have
-                      designed and delivered living spaces for 24 years, by
-                      blurring the boundaries between the indoors and outdoors,
-                      making living in our homes feel more like a resort
-                      vacation.
+                      doesn’t have to be that way.
+                    </p>
+                    <p>
+                      At Total Environment, we have designed and delivered
+                      living spaces for 25 years, by blurring the boundaries
+                      between the indoors and outdoors, making living in our
+                      homes feel more like a resort vacation.
                     </p>
                     <p>
                       We apply the same philosophy to our workspaces by
@@ -77,23 +79,25 @@ const WorkcationsYelhanka = () => {
                       vacation.
                     </p>
                     <p>
-                      Introducing “WORKCATIONS” by Total Environment. Nature has
-                      the innate ability to enhance productivity and well-being.
-                      We channel this through good design and bring nature into
-                      your professional lives. Enjoying the best of what nature
-                      has to offer, does not have to be paused or postponed
-                      until you leave office. It’s all available in our
-                      thoughtfully designed Workcations.
-                    </p>
-                    <p>
-                      <strong>
-                        Connectivity - Pursuit Of A Radical Rhapsody Commercial
-                      </strong>
+                      <strong>The Total Environment Difference</strong>
                       <br />
-                      Whitefield is in the Eastern periphery of Bangalore, and
-                      is well-linked to its far-reaches through a web of
-                      highways, expressways, roads and railways.
+                      Since 1996, we are on a mission to design and deliver
+                      sensitively-designed living spaces and experiences. At
+                      Total Environment, we love creating experiences that touch
+                      your senses. Rich, vibrant and intricate experiences that
+                      are created with passion, sensitivity and commitment. Our
+                      inspiration comes from nature, the arts and crafts, and
+                      from the deep rooted cultural heritage of our beautiful
+                      planet.
                     </p>
+                    <h4>WORKCATIONS - 
+Workspaces That Inspire 
+</h4>
+<p>Workcations’, where boundaries between 
+work and vacation fade away. 
+Our thoughtfully designed Workcations focus 
+on well-being and enhanced productivity 
+where nature is your inspiration! </p>
 
                     {/* <ul>
                       <li>

@@ -116,7 +116,7 @@ const Windmill = () => {
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <Col md={12}>
-                    <WindmillFloorImages />
+                    <WindmillMasterPlan />
                   </Col>
                 </Row>
               </Container>

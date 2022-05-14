@@ -86,7 +86,7 @@ PRM/KA/RERA/1251/309/PR/191015/002923
                 <Row>
                   <h2 className="text-center py-2"> Floor Plans</h2>
                   <Col md={12}>
-                    <RainFloorImages />
+                    <RainMasterPlan />
                   </Col>
                 </Row>
               </Container>

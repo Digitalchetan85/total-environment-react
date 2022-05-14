@@ -108,7 +108,7 @@ const QuietEarth = () => {
                 <Row>
                   <h2 className="text-center py-2">Floor Plans</h2>
                   <Col md={12}>
-                    <QuietEarthFloorImages />
+                    <QuietEarthMasterPlan />
                     </Col>
                 </Row>
               </Container>

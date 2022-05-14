@@ -14,7 +14,7 @@ import image3 from "../Images/slider/windmill.png"
 import image4 from "../Images/slider/rain.png"
 import image5 from "../Images/slider/fly.png"
 import image6 from "../Images/slider/fairaway.png"
-import image7 from "../Images/slider/workcations.png"
+import image7 from "../Images/slider/image-1.png"
 import image8 from "../Images/slider/workcations.png"
 
 
@@ -61,7 +61,7 @@ const Projects = () => {
     title: "Total Environment Workcations - Yelhanka",
     description: "Pre Launch Commercial Development in Yelhanka, Bangalore",
     imageurl: image7,
-    link: "/projects/workations"
+    link: "/projects/workcations-yelhanka"
 },
 
 { id: 8, 
