@@ -9,7 +9,7 @@ const RainMasterPlan = () => {
   return (
     <div>
       <h2 className="pt-2 pb-2 text-center fs-4">
-        Floor Plans
+       Master & Floor Plans
       </h2>
       <Tabs
         id="controlled-tab-example"

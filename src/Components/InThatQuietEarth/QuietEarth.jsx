@@ -130,7 +130,7 @@ const QuietEarth = () => {
                   <h2 className="text-center py-2">Floor Plans</h2>
                   <Col md={12}>
                     <QuietEarthMasterPlan />
-                  </Col>
+                    </Col>
                 </Row>
               </Container>
             </div> */}

@@ -6,7 +6,7 @@ import image2 from '../Images/slider/windmill.png';
 import image3 from '../Images/slider/pursuit.png';
 import image4 from '../Images/slider/fly.png';
 import image5 from '../Images/slider/fairaway.png';
-import image6 from '../Images/slider/workcations.png'
+import image6 from '../Images/slider/image-1.png'
 import image7 from '../Images/slider/workcations.png'
 
 const OtherProjectsRain = () => {

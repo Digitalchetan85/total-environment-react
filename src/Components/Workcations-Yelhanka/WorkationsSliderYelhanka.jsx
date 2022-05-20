@@ -3,9 +3,9 @@ import { Container, Col, Image, Row, Button } from "react-bootstrap";
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/src/owl.carousel.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
-import Image1 from "../Images/projects/learning-to-fly/slider/image-1.png";
-import Image2 from "../Images/projects/learning-to-fly/slider/image-2.png";
-import Image3 from "../Images/projects/learning-to-fly/slider/image-3.png";
+import Image1 from "../Images/projects/work-yelhanka/slider/image-1.png";
+import Image2 from "../Images/projects/work-yelhanka/slider/image-5.png";
+import Image3 from "../Images/projects/work-yelhanka/slider/image-6.png";
 import Logo from "../Images/logo-1.png"
 import WorkationsModalYelhanka from "./WorkationsModalYelhanka";
 

@@ -55,7 +55,7 @@ const OtherProjectsWorkations = () => {
     title: " Total Environment Workcations",
     description: "Pre Launch Commercial Development in Yelhanka, East Bangalore",
     imageurl: image7,
-    link: "/projects//workcations-yelhanka",
+    link: "/projects/workcations-yelhanka",
 },
     
     ];

@@ -158,7 +158,7 @@ const Rain = () => {
                 <Row>
                   <h2 className="text-center py-2"> Floor Plans</h2>
                   <Col md={12}>
-                    <RainFloorImages />
+                    <RainMasterPlan />
                   </Col>
                 </Row>
               </Container>
