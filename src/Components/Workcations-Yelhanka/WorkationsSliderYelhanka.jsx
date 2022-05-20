@@ -75,18 +75,17 @@ const WorkationsSliderYelhanka = () => {
       ))}
     </OwlCarousel>
     <div className="bg-light position-relative rounded" id="custom-content">
-      <Container className="bg-white shadow p-3 position-absolute top-50 start-50 translate-middle">
+      <Container className="bg-white rounded shadow p-3 position-absolute top-50 start-50 translate-middle">
         <Row className="justify-content-center">
           <Col
             md={4}
             className="col-md-4 align-self-center d-none d-md-block"
           >
-            <div className="text-center">
+            <div className="text-center text-md-start">
               <Image
                 src={Logo}
                 alt=""
                 className="img-fluid"
-                style={{ height: "125px" }}
               />
             </div>
           </Col>
@@ -94,7 +93,7 @@ const WorkationsSliderYelhanka = () => {
             <Row className="">
               <Col md={8} className="">
                 <div className="m-1 text-center text-md-start">
-                  <h1 className="fs-2">Total Environment Total Environment Workcation</h1>
+                  <h1 className="fs-4">Total Environment Total Environment Workcation</h1>
                   <p className="m-0">
                     <p className="text-center text-md-start mb-0">Yelhanka, Bangalore</p>
                   </p>

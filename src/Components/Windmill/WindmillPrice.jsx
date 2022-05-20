@@ -34,8 +34,21 @@ const WindmillPrice = () => {
               <tbody>
                 <tr>
                   <td>4 BHK Duplex (D60)</td>
-                  <td>5964 </td>
-                  <td>6.4 Cr Onwards</td>
+                  <td>5924 </td>
+                  <td>
+                    <Button
+                      variant="dark"
+                      size="sm"
+                      onClick={handleShow}
+                      className="my-3 custom-button"
+                    >
+                      <i className="fa fa-spinner fa-flip fa-download"></i> Price Sheet
+                    </Button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>4 BHK Penthouse (Blue)</td>
+                  <td>7648 </td>
                   <td>
                     <Button
                       variant="dark"

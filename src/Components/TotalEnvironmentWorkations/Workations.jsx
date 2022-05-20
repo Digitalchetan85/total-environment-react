@@ -16,7 +16,7 @@ const Workations = () => {
       <Container fluid>
         <Row>
           <Col md={9} className="">
-            <div id="overview" className="py-3 py-md-3 bg-light">
+            <div id="overview" className="py-3 py-md-3">
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <h2 className="pb-2 text-center py-2 py-md-5 fs-3">
@@ -31,24 +31,28 @@ const Workations = () => {
                           <td>PRM/KA/RERA/1251/446/PR/200817/003551</td>
                         </tr>
                         <tr>
-                          <th>Development Size</th>
-                          <td>3.8 Lakh Sq.Ft. Office Space</td>
+                          <th>Location</th>
+                          <td>Whitefield, Bangalore</td>
                         </tr>
                         <tr>
-                          <th>No. of Units</th>
-                          <td>On Request</td>
+                          <th>Total Land Area</th>
+                          <td>34.5 Acres</td>
                         </tr>
                         <tr>
-                          <th>No. of Blocks</th>
-                          <td>1 Block</td>
+                          <th>No. Units</th>
+                          <td>N.A.</td>
+                        </tr>
+                        <tr>
+                          <th>Towers & Blocks</th>
+                          <td>1 Tower & 3B + G + 19 Floors</td>
                         </tr>
                         <tr>
                           <th>Unit Variants</th>
-                          <td>500 Sq.Ft. Onwards...</td>
+                          <td>Units of 500sqft</td>
                         </tr>
                         <tr>
-                          <th>No. of Floors</th>
-                          <td>3B + 19 Floors</td>
+                          <th>Possession Time</th>
+                          <td>Mar 2023 Onwards</td>
                         </tr>
                       </tbody>
                     </Table>
@@ -147,9 +151,10 @@ const Workations = () => {
                   </Col>
                 </Row>
               </Container>
+              <Info />
             </div>
 
-            <div className="py-3 py-md-5 bg-light" id="master-plan">
+            <div className="py-3 py-md-5" id="master-plan">
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <Col md={12}>

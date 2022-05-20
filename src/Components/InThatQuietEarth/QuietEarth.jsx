@@ -17,7 +17,7 @@ const QuietEarth = () => {
       <Container fluid>
         <Row>
           <Col md={9} className="">
-            <div id="overview" className="py-5 py-md-5 bg-light">
+            <div id="overview" className="py-5 py-md-5">
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <h2 className="pb-2 text-center py-2 py-md-5 fs-3">
@@ -36,8 +36,28 @@ const QuietEarth = () => {
                           </td>
                         </tr>
                         <tr>
+                          <th>Project Location</th>
+                          <td>Bileshevale, Hennur Road</td>
+                        </tr>
+                        <tr>
+                          <th>Total Land Area</th>
+                          <td>14.5 Acres</td>
+                        </tr>
+                        <tr>
+                          <th>No. of Units</th>
+                          <td>560 Units</td>
+                        </tr>
+                        <tr>
+                          <th>Towers & Blocks</th>
+                          <td>4 Towers & 2B + G + 36 Floors</td>
+                        </tr>
+                        <tr>
                           <th>Unit Variants</th>
-                          <td>2BHK, 3BHK & 4 BHK</td>
+                          <td>2BHK, 3BHK, 4 BHK & Villas</td>
+                        </tr>
+                        <tr>
+                          <th>Possession Time</th>
+                          <td>Dec 2022 Onwards</td>
                         </tr>
                       </tbody>
                     </Table>
@@ -101,28 +121,33 @@ const QuietEarth = () => {
                   </Col>
                 </Row>
               </Container>
+              <Info />
             </div>
 
-            <div className="py-3 py-md-5 bg-light" id="master-plan">
+            {/* <div className="py-3 py-md-5 bg-light" id="master-plan">
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <h2 className="text-center py-2">Floor Plans</h2>
                   <Col md={12}>
-                    <QuietEarthFloorImages />
-                    </Col>
+                    <QuietEarthMasterPlan />
+                  </Col>
                 </Row>
               </Container>
-            </div>
+            </div> */}
 
-            <div className="py-3 py-md-3" id="amenites">
+            <div className="py-3 py-md-5 bg-light" id="amenites">
               <Container fluid className="ps-0 pe-0">
                 <Row>
-                  <h4 className="text-center">Amenities<br />A young body is a young mind</h4>
-                  
-                  <p><strong>
-                    In today's fast-paced life, there is a need for everyone to
-                    be healthy. A fit body leads to a calmer mind, and one that
-                    can deal with the pressures of today.</strong>
+                  <h4 className="text-center">
+                    Amenities
+                    <br />A young body is a young mind
+                  </h4>
+                  <p>
+                    <strong>
+                      In today's fast-paced life, there is a need for everyone
+                      to be healthy. A fit body leads to a calmer mind, and one
+                      that can deal with the pressures of today.
+                    </strong>
                   </p>
                   <Col md={3}>
                     <ul>
@@ -179,7 +204,7 @@ const QuietEarth = () => {
                 <Row>
                   <QuietEarthPrice />
                   <Info />
-                  <QuietEarthGallery />
+                  {/* <QuietEarthGallery /> */}
                   <QuietEarthLocation />
                   {/* <VirtualTour /> */}
                 </Row>

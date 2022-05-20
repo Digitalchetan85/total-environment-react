@@ -28,7 +28,7 @@ const Projects = () => {
 
 },
 { id: 2, 
-    title: "Total Environment Pursuit of a Radical Rhapsody",
+    title: "TE Pursuit of a Radical Rhapsody",
     description: "Luxury Apartments & Villas in Whitefield, East Bangalore",
     imageurl: image2,
     link: "/projects/pursuit"
@@ -45,36 +45,36 @@ const Projects = () => {
     imageurl: image4,
     link: "/projects/rain"
 },
-{ id: 5, 
-    title: "Total Environment Learning To Fly",
-    description: "Luxury Apartments in JP Nagar, South Bangalore",
-    imageurl: image5,
-    link: "/projects/learning-fly"
-},
-{ id: 6, 
-    title: "Total Environment The Magic Faraway Tree",
-    description: "Luxury Apartments in Kanakapura Road, South Bangalore",
-    imageurl: image6,
-    link: "/projects/magic-tree"
-},
+// { id: 5, 
+//     title: "Total Environment Learning To Fly",
+//     description: "Luxury Apartments in JP Nagar, South Bangalore",
+//     imageurl: image5,
+//     link: "/projects/learning-fly"
+// },
+// { id: 6, 
+//     title: "Total Environment The Magic Faraway Tree",
+//     description: "Luxury Apartments in Kanakapura Road, South Bangalore",
+//     imageurl: image6,
+//     link: "/projects/magic-tree"
+// },
 { id: 7, 
     title: "Total Environment Workcations - Yelhanka",
     description: "Pre Launch Commercial Development in Yelhanka, Bangalore",
     imageurl: image7,
-    link: "/projects/workations"
+    link: "/projects/workations-yelhanka"
 },
 
 { id: 8, 
   title: "Total Environment Workcations - WhiteField",
   description: "Pre Launch Commercial Development in Whitefield, Bangalore",
   imageurl: image8,
-  link: "/projects/workations"
+  link: "/projects/workations-whitefiled"
 },
 
 
 ];
   return (
-    <div className="bg-light py-3 py-md-5" id="projects">
+    <div className="py-3 py-md-5" id="projects">
       <Container fluid className="ps-0 pe-0">
         <Row className="justify-content-center g-3">
             <h2 className="py-3 text-center fs-3">Total EnvironmentProjects</h2> 
@@ -84,8 +84,8 @@ const Projects = () => {
                 <Card.Img variant="top" src={project.imageurl} className="position-relative" />
                   {/* <h6 className="position-absolute end-0 bg-danger m-3 rounded-pill text-white p-2 pill-custom">{project.status}</h6> */}
                 <Card.Body className="text-center">
-                  <h2 className="fs-4">{project.title}</h2>
-                  <h3 className="fs-5">{project.description}</h3>
+                  <h2 className="fs-5">{project.title}</h2>
+                  <p className="text-center">{project.description}</p>
                   <div className="text-center">
                   <Button
                     variant="dark"

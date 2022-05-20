@@ -20,7 +20,7 @@ const Topheader = () => {
 
   return (
     <div className="sticky-top" id="navbar">
-      <div id="top-header" className="p-2 p-md-1 bg-dark">
+      <div id="top-header" className="p-2 p-md-1 bg-light">
         <Container>
           <Row className="justify-content-center">
             <Col
@@ -35,9 +35,9 @@ const Topheader = () => {
                   variant="info"
                   size="sm"
                   onClick={handleShow}
-                  className="custom-button"
+                  className="custom-button text-white"
                 >
-                  <i className="fa fa-spinner fa-flip fa-download"></i> Brochure
+                  <i className="fa fa-spinner fa-flip fa-download text-white"></i> Brochure
                 </Button>
               </div>
             </Col>
@@ -78,7 +78,7 @@ const Topheader = () => {
                 Home
               </Nav.Link>
               <Nav.Link as={Link} to="/about">
-                About Us
+                About TE
               </Nav.Link>
               <NavDropdown
                 title="Total Environment Projects"
@@ -139,7 +139,7 @@ const Topheader = () => {
                 <NavDropdown.Item as={Link} to="/projects/rain">
                   After the Rain
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
+                {/*<NavDropdown.Divider />
                 <NavDropdown.Item as={Link} to="/projects/learning-fly">
                   Learning To Fly
                 </NavDropdown.Item>
@@ -147,7 +147,7 @@ const Topheader = () => {
                 <NavDropdown.Item as={Link} to="/projects/magic-tree">
                   The Magic Faraway Tree
                 </NavDropdown.Item>
-                {/* <NavDropdown.Divider />
+                 <NavDropdown.Divider />
               <NavDropdown.Item as={Link}
                         to="/projects/workations">
               Total Environment Workcations
@@ -159,11 +159,11 @@ const Topheader = () => {
                 id="collasible-nav-dropdown1"
                 className=""
               >
-                <NavDropdown.Item as={Link} to="/projects/workcations-yelhanka">
+                <NavDropdown.Item as={Link} to="/projects/workations-yelhanka">
                   Workation - Yelahanka
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/projects/workations">
+                <NavDropdown.Item as={Link} to="/projects/workations-whitefiled">
                   Workation - Whitefield
                 </NavDropdown.Item>
               </NavDropdown>

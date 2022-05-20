@@ -72,19 +72,18 @@ const PursuitSlider = () => {
         </div>
       ))}
     </OwlCarousel>
-    <div className="bg-light position-relative rounded" id="custom-content">
-      <Container className="bg-white shadow p-3 position-absolute top-50 start-50 translate-middle">
+    <div className="position-relative rounded" id="custom-content">
+      <Container className="bg-white shadow rounded p-3 position-absolute top-50 start-50 translate-middle">
         <Row className="justify-content-center">
           <Col
             md={4}
             className="col-md-4 align-self-center d-none d-md-block"
           >
-            <div className="text-center">
+            <div className="text-center text-md-start">
               <Image
                 src={Logo}
                 alt=""
                 className="img-fluid"
-                style={{ height: "125px" }}
               />
             </div>
           </Col>
@@ -92,10 +91,11 @@ const PursuitSlider = () => {
             <Row className="">
               <Col md={8} className="">
                 <div className="m-1 text-center text-md-start">
-                  <h1 className="fs-2">Total Environment Pursuit Of A Radical Rhapsody</h1>
-                  <p className="m-0">
+                  <h1 className="fs-4">Total Environment Pursuit Of A Radical Rhapsody</h1>
+                  {/* <p className="m-0"> */}
                     <p className="text-center text-md-start mb-0">Whitefield, Bangalore</p>
-                  </p>
+                    <p className="text-center text-md-start mb-0 fw-bold">Starts @ ₹ 2.99 Cr</p>
+                  {/* </p> */}
                 </div>
               </Col>
               <Col md={4} className="align-self-center">

@@ -29,8 +29,8 @@ function App() {
       <Route path="/projects/rain" element={<Rain />}></Route>    
       <Route path="/projects/learning-fly" element={<LearningFly />}></Route>      
       <Route path="/projects/magic-tree" element={<MagicTree />}></Route> 
-      <Route path="/projects/workations" element={<Workations />}></Route>      
-      <Route path="/projects/workcations-yelhanka" element={<WorkcationsYelhanka />}></Route>
+      <Route path="/projects/workations-whitefiled" element={<Workations />}></Route>      
+      <Route path="/projects/workations-yelhanka" element={<WorkcationsYelhanka />}></Route>
       <Route path="/contact" element={<Contact />}></Route>
     </Routes>  
     {/* <FixedIcons /> */}

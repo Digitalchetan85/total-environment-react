@@ -16,7 +16,7 @@ const Pursuit = () => {
       <Container fluid>
         <Row>
           <Col md={9} className="">
-            <div id="overview" className="py-5 py-md-5 bg-light">
+            <div id="overview" className="py-5 py-md-5">
               <Container fluid className="ps-0 pe-0">
                 <Row>
                 <h2 className="pb-2 text-center py-2 py-md-5 fs-3">
@@ -33,11 +33,15 @@ const Pursuit = () => {
                         </tr>
                         <tr>
                           <th>Development Size</th>
-                          <td>34 Acres (Approx.)</td>
+                          <td>34.5 Acres</td>
                         </tr>
                         <tr>
                           <th>No. of Units</th>
-                          <td>799 Units</td>
+                          <td>1081 Units</td>
+                        </tr>
+                        <tr>
+                          <th>Towers & Blocks</th>
+                          <td>G + 28 & 7 Blocks</td>
                         </tr>
                         <tr>
                           <th>Unit Variants</th>
@@ -46,8 +50,8 @@ const Pursuit = () => {
                           </td>
                         </tr>
                         <tr>
-                          <th>No. of Floors</th>
-                          <td>G + 28 Floors</td>
+                          <th>Possession Time</th>
+                          <td>June 2022 Onwards</td>
                         </tr>
                       </tbody>
                     </Table>
@@ -115,6 +119,7 @@ const Pursuit = () => {
                   </Col>
                 </Row>
               </Container>
+              <Info />
             </div>
 
             <div className="py-3 py-md-5 bg-light" id="master-plan">
@@ -156,7 +161,7 @@ const Pursuit = () => {
                 <Row>
                   <PursuitPrice />
                   <Info />
-                  <PursuitGallery />
+                  {/* <PursuitGallery /> */}
                   <PursuitLocation />
                   {/* <VirtualTour /> */}
                 </Row>

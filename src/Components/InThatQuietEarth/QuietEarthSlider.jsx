@@ -74,18 +74,17 @@ const QuietEarthSlider = () => {
       ))}
     </OwlCarousel>
     <div className="bg-light position-relative rounded" id="custom-content">
-      <Container className="bg-white shadow p-3 position-absolute top-50 start-50 translate-middle">
+      <Container className="bg-white rounded shadow p-3 position-absolute top-50 start-50 translate-middle">
         <Row className="justify-content-center">
           <Col
             md={4}
             className="col-md-4 align-self-center d-none d-md-block"
           >
-            <div className="text-center">
+            <div className="text-center text-md-start">
               <Image
                 src={Logo}
                 alt=""
                 className="img-fluid"
-                style={{ height: "125px" }}
               />
             </div>
           </Col>
@@ -93,9 +92,10 @@ const QuietEarthSlider = () => {
             <Row className="">
               <Col md={8} className="">
                 <div className="m-1 text-center text-md-start">
-                  <h1 className="fs-2">Total Environment In That Quiet Earth</h1>
+                  <h1 className="fs-4">Total Environment In That Quiet Earth</h1>
                   <p className="m-0">
                     <p className="text-center text-md-start mb-0">Off Hennur Road, North Bangalore</p>
+                    <p className="text-center text-md-start mb-0 fw-bold">₹ 1.33Cr* Onwards</p>
                   </p>
                 </div>
               </Col>

@@ -51,24 +51,24 @@ const MainSlider = () => {
       specification: "Luxury Villas in Yelahanka, North Bangalore",
       price: "",
     },
-    {
-      id: 5,
-      ImageUrl: Image5,
-      alt: "",
-      link: "/projects/learning-fly",
-      title: "Total Environment Learning to Fly",
-      specification: "Luxury Apartments in JP Nagar, South Bangalore",
-      price: "",
-    },
-    {
-      id: 6,
-      ImageUrl: Image6,
-      alt: "",
-      link: "/projects/magic-tree",
-      title: "Total Environment The Magic Faraway Tree",
-      specification: "Luxury Apartments in Kanakapura Road, South Bangalore",
-      price: "",
-    },
+    // {
+    //   id: 5,
+    //   ImageUrl: Image5,
+    //   alt: "",
+    //   link: "/projects/learning-fly",
+    //   title: "Total Environment Learning to Fly",
+    //   specification: "Luxury Apartments in JP Nagar, South Bangalore",
+    //   price: "",
+    // },
+    // {
+    //   id: 6,
+    //   ImageUrl: Image6,
+    //   alt: "",
+    //   link: "/projects/magic-tree",
+    //   title: "Total Environment The Magic Faraway Tree",
+    //   specification: "Luxury Apartments in Kanakapura Road, South Bangalore",
+    //   price: "",
+    // },
     
     {
       id: 7,
@@ -115,10 +115,10 @@ const MainSlider = () => {
     <div>
       <OwlCarousel options={options}>
         {associations.map((item, index) => (
-          <div className="mx-2" key={index}>
+          <div className="" key={index}>
             <Container>
             <Row>
-              <Col md={12}>
+              <Col md={12} className="ps-0 pe-0">
                 {/* <Link to={item.link}> */}
                   <div className="text-center">
                     <Image
@@ -127,7 +127,7 @@ const MainSlider = () => {
                       className="img-fluid"
                     />
                   </div>
-                  <div className="position-absolute bottom-0 start-50 translate-middle-x bg-dark text-white p-2 opacity-75 text-center">
+                  <div className="w-100 position-absolute bottom-0 start-50 translate-middle-x bg-dark text-white p-2 opacity-75 text-center">
                     <Link to={item.link} className="text-decoration-none text-white"><h2 className="opacity-100 fs-5 fw-bold">{item.title}</h2></Link>
                     <h3 className="opacity-100 fs-6 fw-bold">{item.price}</h3>
                     <h3 className="fs-6">{item.specification}</h3>

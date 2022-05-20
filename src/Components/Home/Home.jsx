@@ -12,11 +12,12 @@ const Home = () => {
   const handleShow = () => setShow(true);
 
   return (
-    <div>
+    <div id="bg">
       <MainSlider />
       <Container fluid className="ps-0 pe-0 ps-md-4 pe-md-4">
         <Row className="ms-0 me-0">
           <Col md={9}>
+            <Projects />
             <div id="overview">
               <Container fluid className="ps-0 pe-0">
                 <Row>
@@ -91,7 +92,7 @@ const Home = () => {
                         making a difference to the world.
                       </p>
 
-                      <div className="text-center">
+                      {/* <div className="text-center">
                         <Button
                           variant="dark"
                           onClick={handleShow}
@@ -99,20 +100,18 @@ const Home = () => {
                         >
                           Contact Us For More Details
                         </Button>
-                      </div>
+                      </div> */}
+                       <Info />
                     </div>
                   </Col>
                 </Row>
               </Container>
             </div>
-            <Projects />
-
-            <Info />
             <div id="videos">
-              <Container fluid className="py-5 bg-light">
-                <Row>
+              <Container fluid className="py-5">
+                <Row className="justify-content-center">
                   <h3 className="text-center py-3">Videos</h3>
-                  <Col md={6}>
+                  <Col md={10}>
                     <div className="ratio ratio-4x3">
                       <iframe
                         title="vimeo-player"
@@ -122,7 +121,7 @@ const Home = () => {
                       ></iframe>
                     </div>
                   </Col>
-                  <Col md={6}>
+                  {/* <Col md={6}>
                     <div className="ratio ratio-4x3">
                       <iframe
                         title="vimeo-player"
@@ -131,12 +130,12 @@ const Home = () => {
                         height="360"
                       ></iframe>
                     </div>
-                  </Col>
+                  </Col> */}
                 </Row>
               </Container>
             </div>
           </Col>
-          <Col md={3} className="bg-light">
+          <Col md={3} className="">
             
             <Contact />
            

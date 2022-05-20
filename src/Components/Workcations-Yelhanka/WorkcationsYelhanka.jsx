@@ -18,35 +18,35 @@ const WorkcationsYelhanka = () => {
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <h2 className="pb-2 text-center py-2 py-md-5 fs-3">
-                    Project Highlights
+                    6 Reasons To Invest In Workcations
                   </h2>
                   <Col md={12}>
                     <span className="bg-danger position-absolute start-50 span-line"></span>
                     <Table className="table table-bordered align-middle">
                       <tbody>
                         <tr>
-                          <th>RERA No</th>
-                          <td>PRM/KA/RERA/1251/446/PR/200817/003551</td>
+                          <th>1</th>
+                          <td>4.96L Sq.Ft. mixed use development comprising office spaces, retail and F&B.</td>
                         </tr>
                         <tr>
-                          <th>Development Size</th>
-                          <td>3.8 Lakh Sq.Ft. Office Space</td>
+                          <th>2</th>
+                          <td>Investment starting as Low as INR 36L* Inclusive of GST.</td>
                         </tr>
                         <tr>
-                          <th>No. of Units</th>
-                          <td>On Request</td>
+                          <th>3</th>
+                          <td>Guaranteed lease at INR 60/sqft.(INR 30,000/month) for 3 years after possession. </td>
                         </tr>
                         <tr>
-                          <th>No. of Blocks</th>
-                          <td>1 Block</td>
+                          <th>4</th>
+                          <td>Lease management by Total Environment for 15 years.</td>
                         </tr>
                         <tr>
-                          <th>Unit Variants</th>
-                          <td>500 Sq.Ft. Onwards...</td>
+                          <th>5</th>
+                          <td>Complimentary maintenance for 3 years from July 2025</td>
                         </tr>
                         <tr>
-                          <th>No. of Floors</th>
-                          <td>3B + 19 Floors</td>
+                          <th>6</th>
+                          <td>No Premiums and Floor-rise charges.</td>
                         </tr>
                       </tbody>
                     </Table>
@@ -145,6 +145,7 @@ const WorkcationsYelhanka = () => {
                   </Col>
                 </Row>
               </Container>
+              <Info />
             </div>
 
             <div className="py-3 py-md-5 bg-light" id="master-plan">
@@ -186,7 +187,7 @@ const WorkcationsYelhanka = () => {
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <WorkationsPriceYelhanka />
-                  <Info />
+                  {/* <Info /> */}
                   {/* <WorkationsGalleryYelhanka /> */}
                   {/* <WorkationsLocationYelhanka /> */}
                   {/* <VirtualTour /> */}

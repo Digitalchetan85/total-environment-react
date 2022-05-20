@@ -34,7 +34,6 @@ const PursuitPrice = () => {
                 <tr>
                   <td>3 BHK (C20) </td>
                   <td>2753</td>
-                  <td>2.99 Cr Onwards</td>
                   <td>
                     <Button
                       variant="dark"
@@ -50,7 +49,6 @@ const PursuitPrice = () => {
                 <tr>
                   <td>3 BHK ( L30) </td>
                   <td>4100 </td>
-                  <td>4.43 Cr Onwards</td>
                   <td>
                     <Button
                       variant="dark"
@@ -64,8 +62,7 @@ const PursuitPrice = () => {
                 </tr>
                 <tr>
                   <td>4 BHK (L45)</td>
-                  <td>5679 </td>
-                  <td>6.7 Cr Onwards</td>
+                  <td>5680 </td>
                   <td>
                     <Button
                       variant="dark"
@@ -80,7 +77,6 @@ const PursuitPrice = () => {
                 <tr>
                   <td>4 BHK Villa (V50) </td>
                   <td>5129 </td>
-                  <td>8 Cr Onwards</td>
                   <td>
                     <Button
                       variant="dark"

@@ -6,8 +6,8 @@ $theme-colors: (
   "secondary": #6c757d,
   "dark": #343a40,
   "success": #28a745,
-  "info": #E1D1AD,
-  "warning": #ffc107,
+  "info": #B36326,
+  "warning": #B36326,
   "danger": #dc3545,
   "light": #f8f9fa,
 );
@@ -21,6 +21,7 @@ $white-color: white;
 $black-color: #000;
 $tertiary-color: #9D9E9E;
 $dark-color: #001524;
+$info-color: #B36326;
 
 
 #custom-content {
@@ -34,9 +35,9 @@ $dark-color: #001524;
     color: $black-color;
     font-size: 14px;
     text-transform: uppercase;
-    border-right: 1px solid $secondary-color;
+    border-right: 1px solid $info-color;
     &:hover {
-      color: $secondary-color;
+      color: $info-color;
     }
     &:last-child{
       border-right: 0px;
@@ -251,3 +252,7 @@ p {
 @include media-breakpoint-only(lg) {  }
 @include media-breakpoint-only(xl) {  }
 @include media-breakpoint-only(xxl) {  }
+
+#bg {
+  background-image: url('../src/Components/Images/blue-bg.jpg')
+}

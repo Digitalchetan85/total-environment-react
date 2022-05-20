@@ -17,7 +17,7 @@ const Windmill = () => {
       <Container fluid>
         <Row>
           <Col md={9} className="">
-            <div id="overview" className="py-5 py-md-5 bg-light">
+            <div id="overview" className="py-5 py-md-5">
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <h2 className="pb-2 text-center py-2 py-md-5 fs-3">
@@ -110,9 +110,10 @@ const Windmill = () => {
                   </Col>
                 </Row>
               </Container>
+              <Info />
             </div>
 
-            <div className="py-3 py-md-5 bg-light" id="master-plan">
+            {/* <div className="py-3 py-md-5 bg-light" id="master-plan">
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <Col md={12}>
@@ -120,7 +121,7 @@ const Windmill = () => {
                   </Col>
                 </Row>
               </Container>
-            </div>
+            </div> */}
 
             <div className="py-3 py-md-3" id="amenites">
               <Container fluid className="ps-0 pe-0">
@@ -164,7 +165,7 @@ const Windmill = () => {
                 <Row>
                   <WindmillPrice />
                   <Info />
-                  <WindmillGallery />
+                  {/* <WindmillGallery /> */}
                   <WindmillLocation />
                   {/* <VirtualTour /> */}
                 </Row>
