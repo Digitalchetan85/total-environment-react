@@ -9,6 +9,7 @@ import QuietEarthLocation from "./QuietEarthLocation";
 import QuietEarthMasterPlan from "./QuietEarthMasterPlan";
 import QuietEarthPrice from "./QuietEarthPrice";
 import QuietEarthSlider from "./QuietEarthSlider";
+import QuietFAQ from "./QuietFAQ";
 
 const QuietEarth = () => {
   return (
@@ -207,6 +208,8 @@ const QuietEarth = () => {
                   {/* <QuietEarthGallery /> */}
                   <QuietEarthLocation />
                   {/* <VirtualTour /> */}
+
+                  <QuietFAQ />
                 </Row>
               </Container>
             </div>

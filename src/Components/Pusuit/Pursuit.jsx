@@ -3,6 +3,7 @@ import { Col, Container, Row, Table } from "react-bootstrap";
 import Contact from "../Includes/Contact";
 import Info from "../Includes/Info";
 import OtherProjectsPursuit from "./OtherProjectsPursuit";
+import PursuitFAQ from "./PursuitFAQ";
 import PursuitGallery from "./PursuitGallery";
 import PursuitLocation from "./PursuitLocation";
 import PursuitMasterPlan from "./PursuitMasterPlan";
@@ -164,6 +165,7 @@ const Pursuit = () => {
                   {/* <PursuitGallery /> */}
                   <PursuitLocation />
                   {/* <VirtualTour /> */}
+                  <PursuitFAQ />
                 </Row>
               </Container>
             </div>

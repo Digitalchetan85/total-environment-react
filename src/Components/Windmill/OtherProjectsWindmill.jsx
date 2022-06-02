@@ -37,12 +37,12 @@ const OtherProjectsWindmill = () => {
         imageurl: image4,
         link: "/projects/learning-fly",
     },
-    { id: 5, 
-        title: " Total Environment The Magic Faraway Tree",
-        description: "Luxury Apartments in Kanakapura Road, South Bangalore",
-        imageurl: image5,
-        link: "/projects/magic-tree",
-    },
+    // { id: 5, 
+    //     title: " Total Environment The Magic Faraway Tree",
+    //     description: "Luxury Apartments in Kanakapura Road, South Bangalore",
+    //     imageurl: image5,
+    //     link: "/projects/magic-tree",
+    // },
     { id: 6, 
         title: " Total Environment Workcations",
         description: "Pre Launch Commercial Development in Yelhanka, East Bangalore",
@@ -67,7 +67,7 @@ const OtherProjectsWindmill = () => {
             <h2 className="py-3 text-center">Total Environment Projects</h2> 
           {projects.map((project) => (
             <Col md={4} key={project.id}>
-              <Card>
+              <Card style={{height: '400px'}}>
                 <Card.Img variant="top" src={project.imageurl} className="position-relative" />
                   {/* <h6 className="position-absolute end-0 bg-danger m-3 rounded-pill text-white p-2 pill-custom">{project.status}</h6> */}
                 <Card.Body className="text-center">

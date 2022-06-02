@@ -3,6 +3,7 @@ import { Col, Container, Row, Table } from "react-bootstrap";
 import Contact from "../Includes/Contact";
 import Info from "../Includes/Info";
 import OtherProjectsRain from "./OtherProjectsRain";
+import RainFAQ from "./RainFAQ";
 import RainFloorImages from "./RainFloorImages";
 import RainGallery from "./RainGallery";
 import RainLocation from "./RainLocation";
@@ -196,6 +197,8 @@ const Rain = () => {
                   {/*<RainGallery /> */}
                   <RainLocation />
                   {/* <VirtualTour /> */}
+
+                  <RainFAQ />
                 </Row>
               </Container>
             </div>
