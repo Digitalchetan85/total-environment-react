@@ -1,16 +1,16 @@
-import React from 'react'
-import { Col, Container, Image, Row } from 'react-bootstrap';
-import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox';
-import Image1 from "../Images/projects/windmill/floor-plans/floor-plan-1.png"
+import React from "react";
+import { Col, Container, Image, Row } from "react-bootstrap";
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
+import Image1 from "../Images/projects/quite-earth/floor-plans/villa-lower.png";
+import Image2 from "../Images/projects/quite-earth/floor-plans/villa-high.png";
 
-const WindmillMasterPlanImages = () => {
-
+const QuietEarthVillaImages = () => {
   const images = [
-    { id: 1, imgName: Image1, alt: "", tag: "D60 Floor Plan" },];
+    { id: 1, imgName: Image1, alt: "", tag: "Villa Lower" },
+    { id: 2, imgName: Image2, alt: "", tag: "Villa Upper" },];
 
   return (
     <div>
-
       <Container fluid className="ps-0 pe-0">
         <SimpleReactLightbox>
           <SRLWrapper>
@@ -26,7 +26,7 @@ const WindmillMasterPlanImages = () => {
                       />
                     </a>
                   </div>
-                    <h6 className="text-center"> {item.tag} </h6>
+                  <h6 className="text-center"> {item.tag} </h6>
                 </Col>
               ))}
             </Row>
@@ -34,7 +34,7 @@ const WindmillMasterPlanImages = () => {
         </SimpleReactLightbox>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default WindmillMasterPlanImages
+export default QuietEarthVillaImages;

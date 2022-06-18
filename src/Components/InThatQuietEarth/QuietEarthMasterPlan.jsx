@@ -1,8 +1,11 @@
 import { Tab } from "bootstrap";
 import React, { useState } from "react";
 import { Tabs } from "react-bootstrap";
+import QuietEarth3BHKImages from "./QuietEarth3BHKImages";
+import QuietEarth4BHKImages from "./QuietEarth4BHKImages";
 import QuietEarthFloorImages from "./QuietEarthFloorImages";
 import QuietEarthMasterPlanImages from "./QuietEarthMasterPlanImages";
+import QuietEarthVillaImages from "./QuietEarthVillaImages";
 
 const QuietEarthMasterPlan = () => {
   const [key, setKey] = useState("all");
@@ -25,10 +28,13 @@ const QuietEarthMasterPlan = () => {
           <QuietEarthFloorImages />
         </Tab>
         <Tab eventKey="3bhk" title="3BHK" className="text-dark">
-          <QuietEarthFloorImages />
+          <QuietEarth3BHKImages />
         </Tab>
         <Tab eventKey="4bhk" title="4BHK" className="text-dark">
-          <QuietEarthFloorImages />
+          <QuietEarth4BHKImages />
+        </Tab>
+        <Tab eventKey="villa" title="Villa" className="text-dark">
+          <QuietEarthVillaImages />
         </Tab>
       </Tabs>
     </div>

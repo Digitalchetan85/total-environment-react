@@ -113,7 +113,7 @@ const Windmill = () => {
               <Info />
             </div>
 
-            {/* <div className="py-3 py-md-5 bg-light" id="master-plan">
+            <div className="py-3 py-md-5 bg-light" id="master-plan">
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <Col md={12}>
@@ -121,7 +121,7 @@ const Windmill = () => {
                   </Col>
                 </Row>
               </Container>
-            </div> */}
+            </div>
 
             <div className="py-3 py-md-3" id="amenites">
               <Container fluid className="ps-0 pe-0">

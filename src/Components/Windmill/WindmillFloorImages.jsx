@@ -6,7 +6,7 @@ import Image1 from "../Images/projects/windmill/floor-plans/floor-plan-1.png"
 const WindmillFloorImages = () => {
 
     const images = [
-      { id: 1, imgName: Image1, alt: "", tag: "" },];
+      { id: 1, imgName: Image1, alt: "", tag: "D60 Floor Plan" },];
   
     return (
       <div>

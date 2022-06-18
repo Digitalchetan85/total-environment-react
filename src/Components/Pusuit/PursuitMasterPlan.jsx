@@ -1,6 +1,7 @@
 import { Tab } from 'bootstrap';
 import React, { useState } from 'react'
 import { Tabs } from 'react-bootstrap';
+import Pursuit4BHKImages from './Pursuit4BHKImages';
 import PursuitFloorImages from './PursuitFloorImages';
 import PursuitMasterPlanImages from './PursuitMasterPlanImages';
 
@@ -18,11 +19,14 @@ const PursuitMasterPlan = () => {
         onSelect={(k) => setKey(k)}
         className="mb-3 text-dark"
       >
-        <Tab eventKey="all" title="Master Plan" className="text-dark">
+        <Tab eventKey="all" title="All" className="text-dark">
           <PursuitMasterPlanImages />
         </Tab>
-        <Tab eventKey="matster-plan" title="Floor Plan" className="text-dark">
-        < PursuitFloorImages/>
+        <Tab eventKey="matster-plan" title="3 Bedroom" className="text-dark">
+        < PursuitFloorImages />
+        </Tab>
+        <Tab eventKey="matster-plan1" title="4 Bedroom" className="text-dark">
+        < Pursuit4BHKImages />
         </Tab>
       </Tabs>
     </div>

@@ -125,7 +125,7 @@ const QuietEarth = () => {
               <Info />
             </div>
 
-            {/* <div className="py-3 py-md-5 bg-light" id="master-plan">
+            <div className="py-3 py-md-5 bg-light" id="master-plan">
               <Container fluid className="ps-0 pe-0">
                 <Row>
                   <h2 className="text-center py-2">Floor Plans</h2>
@@ -134,7 +134,7 @@ const QuietEarth = () => {
                     </Col>
                 </Row>
               </Container>
-            </div> */}
+            </div>
 
             <div className="py-3 py-md-5 bg-light" id="amenites">
               <Container fluid className="ps-0 pe-0">

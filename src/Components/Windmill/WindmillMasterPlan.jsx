@@ -2,6 +2,7 @@ import { Tab } from 'bootstrap';
 import React, { useState } from 'react'
 import { Tabs } from 'react-bootstrap';
 import PursuitFloorImages from './WindmillFloorImages';
+import WindmillMasterPlanImages from './WindmillMasterPlanImages';
 
 const WindmillMasterPlan = () => {
     
@@ -18,7 +19,7 @@ const WindmillMasterPlan = () => {
         className="mb-3 text-dark"
       >
         <Tab eventKey="all" title="Master Plan" className="text-dark">
-          {/* <WindmillMasterPlanImages /> */}
+          <WindmillMasterPlanImages />
         </Tab>
         <Tab eventKey="matster-plan" title="Floor Plan" className="text-dark">
         < PursuitFloorImages/>
