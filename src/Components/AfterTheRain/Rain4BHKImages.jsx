@@ -1,26 +1,13 @@
 import React from 'react'
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox';
-import Image1 from "../Images/projects/pursuit/floor-plans/c20v1a.png";
-import Image2 from "../Images/projects/pursuit/floor-plans/c20v1b.png";
-import Image3 from "../Images/projects/pursuit/floor-plans/c20v1g1.png";
-import Image4 from "../Images/projects/pursuit/floor-plans/c20v1g2.png";
-import Image5 from "../Images/projects/pursuit/floor-plans/l30v1a.png";
-import Image6 from "../Images/projects/pursuit/floor-plans/l30v1b.png";
-import Image7 from "../Images/projects/pursuit/floor-plans/l30v1g.png";
+import Image3 from "../Images/projects/after-rain/floor-plans/v50.png"
 
-const PursuitFloorImages = () => {
+const Rain4BHKImages = () => {
 
     const images = [
-      { id: 1, imgName: Image1, alt: "", tag: "C20 V1a" },
-      { id: 2, imgName: Image2, alt: "", tag: "C20 V1b" },
-      { id: 3, imgName: Image3, alt: "", tag: "C20 V1g1" },
-      { id: 4, imgName: Image4, alt: "", tag: "C20 V1g2" },
-      { id: 5, imgName: Image5, alt: "", tag: "L30 V1a" },
-      { id: 6, imgName: Image6, alt: "", tag: "L30 V1b" },
-      { id: 7, imgName: Image7, alt: "", tag: "L30 V1g" },  
-    ];
-    
+      { id: 3, imgName: Image3, alt: "", tag: "V50" },
+    ]
   
     return (
       <div>
@@ -51,4 +38,4 @@ const PursuitFloorImages = () => {
     )
 }
 
-export default PursuitFloorImages
+export default Rain4BHKImages
