@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Row, Col, Container, } from "react-bootstrap";
+import { Button, Row, Col, Container, InputGroup, } from "react-bootstrap";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -86,13 +86,27 @@ const Contact = () => {
                 <Row className="mb-3">
                   <Col md={12}>
                     <div className="mb-3">
+                    <InputGroup className="mb-3">
+                      <InputGroup.Text id="basic-addon1" className="bg-white border-end-0">
+                        <i className="fa fa-user text-info"></i>
+                      </InputGroup.Text>
                       <Field
+                        className="form-control border-start-0"
+                        type="text"
+                        aria-label="Username"
+                        aria-describedby="basic-addon1"
+                        id="name"
+                        name="name"
+                        placeholder="Name"
+                      />
+                    </InputGroup>
+                      {/* <Field
                         type="text"
                         className="form-control"
                         id="name"
                         name="name"
                         placeholder="Name"
-                      />
+                      /> */}
                       <small className="text-danger">
                         <ErrorMessage name="name" />
                       </small>
@@ -102,13 +116,27 @@ const Contact = () => {
                 <Row className="mb-3">
                   <Col md={12}>
                     <div className="mb-3">
+                    <InputGroup className="mb-3">
+                      <InputGroup.Text id="basic-addon1" className="bg-white border-end-0">
+                        <i className="fa fa-envelope text-info"></i>
+                      </InputGroup.Text>
                       <Field
+                        className="form-control border-start-0"
+                        type="email"
+                        aria-label="Username"
+                        aria-describedby="basic-addon1"
+                        id="email"
+                        name="email"
+                        placeholder="Email"
+                      />
+                    </InputGroup>
+                      {/* <Field
                         type="email"
                         className="form-control"
                         id="email"
                         name="email"
                         placeholder="Email"
-                      />
+                      /> */}
                       <small className="text-danger">
                         <ErrorMessage name="email" />
                       </small>
@@ -118,13 +146,28 @@ const Contact = () => {
                 <Row className="mb-3">
                   <Col md={12}>
                     <div className="mb-3">
-                      <Field
+                      {/* <Field
                         type="tel"
                         className="form-control"
                         id="phone"
                         name="phone"
                         placeholder="Enter phone number"
+                      /> */}
+                      
+                    <InputGroup className="mb-3">
+                      <InputGroup.Text id="basic-addon1" className="bg-white border-end-0">
+                        <i className="fa fa-phone-volume text-info"></i>
+                      </InputGroup.Text>
+                      <Field
+                        className="form-control border-start-0"
+                        type="tel"
+                        aria-label="Username"
+                        aria-describedby="basic-addon1"
+                        id="phone"
+                        name="phone"
+                        placeholder="Phone No."
                       />
+                    </InputGroup>
                       <small className="text-danger">
                         <ErrorMessage name="phone" />
                       </small>

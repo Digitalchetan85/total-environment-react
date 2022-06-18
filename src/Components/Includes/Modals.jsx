@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Modal, Row, Col, Image } from "react-bootstrap";
+import { Button, Modal, Row, Col, Image, InputGroup } from "react-bootstrap";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -90,13 +90,27 @@ const ContactModal = (props) => {
                 </Col> */}
                 <Col md={12}>
                   <div className="mb-3">
-                    <Field
+                    {/* <Field
                       type="text"
                       className="form-control"
                       id="name"
                       name="name"
                       placeholder="Name"
-                    />
+                    /> */}
+                    <InputGroup className="mb-3">
+                      <InputGroup.Text id="basic-addon1" className="bg-white border-end-0">
+                        <i className="fa fa-user text-info"></i>
+                      </InputGroup.Text>
+                      <Field
+                        className="form-control border-start-0"
+                        type="text"
+                        aria-label="Username"
+                        aria-describedby="basic-addon1"
+                        id="name"
+                        name="name"
+                        placeholder="Name"
+                      />
+                    </InputGroup>
                     <small className="text-danger">
                       <ErrorMessage name="name" />
                     </small>
@@ -114,13 +128,27 @@ const ContactModal = (props) => {
                 </Col> */}
                 <Col md={12}>
                   <div className="mb-3">
-                    <Field
+                    {/* <Field
                       type="email"
                       className="form-control"
                       id="email"
                       name="email"
                       placeholder="Email"
-                    />
+                    /> */}
+                    <InputGroup className="mb-3">
+                      <InputGroup.Text id="basic-addon1" className="bg-white border-end-0">
+                        <i className="fa fa-envelope text-info"></i>
+                      </InputGroup.Text>
+                      <Field
+                        className="form-control border-start-0"
+                        type="email"
+                        aria-label="Username"
+                        aria-describedby="basic-addon1"
+                        id="email"
+                        name="email"
+                        placeholder="Email"
+                      />
+                    </InputGroup>
                     <small className="text-danger">
                       <ErrorMessage name="email" />
                     </small>
@@ -141,13 +169,28 @@ const ContactModal = (props) => {
                 </Col> */}
                 <Col md={12}>
                   <div className="mb-3">
-                    <Field
+                    {/* <Field
                       type="tel"
                       className="form-control"
                       id="phone"
                       name="phone"
                       placeholder="Phone number"
-                    />
+                    /> */}
+                    
+                    <InputGroup className="mb-3">
+                      <InputGroup.Text id="basic-addon1" className="bg-white border-end-0">
+                        <i className="fa fa-phone-volume text-info"></i>
+                      </InputGroup.Text>
+                      <Field
+                        className="form-control border-start-0"
+                        type="tel"
+                        aria-label="Username"
+                        aria-describedby="basic-addon1"
+                        id="phone"
+                        name="phone"
+                        placeholder="Phone No."
+                      />
+                    </InputGroup>
 
                     <small className="text-danger">
                       <ErrorMessage name="phone" />
@@ -169,15 +212,29 @@ const ContactModal = (props) => {
                 </Col> */}
                 <Col md={12}>
                   <div className="">
-                    <Field
+                    {/* <Field
                       type="hidden"
                       className="form-control"
                       id="id"
                       name="id"
                       placeholder="Phone number"
                       value={props.projectid}
-                    />
+                    /> */}
 
+<InputGroup className="mb-3">
+                      <InputGroup.Text id="basic-addon1" className="bg-white border-end-0">
+                        <i className="fa fa-phone-volume text-info"></i>
+                      </InputGroup.Text>
+                      <Field
+                        className="form-control border-start-0"
+                        type="tel"
+                        aria-label="Username"
+                        aria-describedby="basic-addon1"
+                        id="phone"
+                        name="phone"
+                        placeholder="Phone No."
+                      />
+                    </InputGroup>
                     <small className="text-danger d-none">
                       <ErrorMessage name="id" />
                     </small>
