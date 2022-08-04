@@ -10,7 +10,6 @@ import image6 from "../Images/slider/image-1.jpg";
 import image7 from "../Images/slider/workcations.jpg";
 
 const OtherProjectsQuietEarth = () => {
-<<<<<<< HEAD
   const projects = [
     {
       id: 1,
@@ -68,31 +67,6 @@ const OtherProjectsQuietEarth = () => {
       link: "/projects/workations",
     },
   ];
-=======
-
-    const projects = [{ 
-      id: 1, 
-      title: " Total Environment In That Quiet Earth",
-      description: "Luxury Apartments & Villas Off Hennur Road, North Bangalore",
-      imageurl: image1,
-      link: "/projects/quiet-earth",
-  
-  },
-  { id: 2, 
-      title: " Total Environment Pursuit Of A Radical Rhapsody",
-      description: "Luxury Apartments & Villas in Whitefield, East Bangalore",
-      imageurl: image2,
-      link: "/projects/pursuit",
-  },
-  { id: 3, 
-      title: " Total Environment After The Rain",
-      description: "Luxury Villas in Yelahanka, North Bangalore",
-      imageurl: image3,
-      link: "/projects/rain",
-  },
-    
-    ];
->>>>>>> 7a7bdda6a65e25adc034411e7078489e6907fd1e
 
   return (
     <div className="bg-light py-3 py-md-5" id="projects">

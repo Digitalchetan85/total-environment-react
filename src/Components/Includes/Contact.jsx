@@ -76,25 +76,8 @@ const Contact = () => {
                 </h6>
                 <Row className="mb-3">
                   <Col md={12}>
-<<<<<<< HEAD
                     <div className="">
                     <InputGroup className="">
-=======
-                    <div className="mb-3">
-                      <a
-                        href="tel:09036611010"
-                        className="btn btn-dark form-control fw-bold py-2"
-                      >
-                        <i className="fa fa-phone-volume"></i> +91 90366 11010
-                      </a>
-                    </div>
-                  </Col>
-                </Row>
-                <Row className="mb-3">
-                  <Col md={12}>
-                    <div className="mb-3">
-                    <InputGroup className="mb-3">
->>>>>>> 7a7bdda6a65e25adc034411e7078489e6907fd1e
                       <InputGroup.Text id="basic-addon1" className="bg-white border-end-0">
                         <i className="fa fa-user text-info"></i>
                       </InputGroup.Text>
@@ -108,16 +91,6 @@ const Contact = () => {
                         placeholder="Name"
                       />
                     </InputGroup>
-<<<<<<< HEAD
-=======
-                      {/* <Field
-                        type="text"
-                        className="form-control"
-                        id="name"
-                        name="name"
-                        placeholder="Name"
-                      /> */}
->>>>>>> 7a7bdda6a65e25adc034411e7078489e6907fd1e
                       <small className="text-danger">
                         <ErrorMessage name="name" />
                       </small>
@@ -126,13 +99,8 @@ const Contact = () => {
                 </Row>
                 <Row className="mb-3">
                   <Col md={12}>
-<<<<<<< HEAD
                     <div className="">
                     <InputGroup className="">
-=======
-                    <div className="mb-3">
-                    <InputGroup className="mb-3">
->>>>>>> 7a7bdda6a65e25adc034411e7078489e6907fd1e
                       <InputGroup.Text id="basic-addon1" className="bg-white border-end-0">
                         <i className="fa fa-envelope text-info"></i>
                       </InputGroup.Text>
@@ -146,16 +114,6 @@ const Contact = () => {
                         placeholder="Email"
                       />
                     </InputGroup>
-<<<<<<< HEAD
-=======
-                      {/* <Field
-                        type="email"
-                        className="form-control"
-                        id="email"
-                        name="email"
-                        placeholder="Email"
-                      /> */}
->>>>>>> 7a7bdda6a65e25adc034411e7078489e6907fd1e
                       <small className="text-danger">
                         <ErrorMessage name="email" />
                       </small>
@@ -164,7 +122,6 @@ const Contact = () => {
                 </Row>
                 <Row className="mb-3">
                   <Col md={12}>
-<<<<<<< HEAD
                     <div className="">
                     <InputGroup className="">
                       <InputGroup.Text id="basic-addon1" className="bg-white border-end-0">
@@ -172,32 +129,11 @@ const Contact = () => {
                       </InputGroup.Text>
                       <Field
                         className="form-control border-start-0"
-=======
-                    <div className="mb-3">
-                      {/* <Field
->>>>>>> 7a7bdda6a65e25adc034411e7078489e6907fd1e
                         type="tel"
                         aria-label="Username"
                         aria-describedby="basic-addon1"
                         id="phone"
                         name="phone"
-<<<<<<< HEAD
-=======
-                        placeholder="Enter phone number"
-                      /> */}
-                      
-                    <InputGroup className="mb-3">
-                      <InputGroup.Text id="basic-addon1" className="bg-white border-end-0">
-                        <i className="fa fa-phone-volume text-info"></i>
-                      </InputGroup.Text>
-                      <Field
-                        className="form-control border-start-0"
-                        type="tel"
-                        aria-label="Username"
-                        aria-describedby="basic-addon1"
-                        id="phone"
-                        name="phone"
->>>>>>> 7a7bdda6a65e25adc034411e7078489e6907fd1e
                         placeholder="Phone No."
                       />
                     </InputGroup>
