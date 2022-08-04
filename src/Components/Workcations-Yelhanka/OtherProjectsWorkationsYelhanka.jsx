@@ -33,35 +33,6 @@ const OtherProjectsWorkationsYelhanka = () => {
       imageurl: image3,
       link: "/projects/rain",
     },
-    {
-      id: 4,
-      title: " Total Environment Learning To Fly",
-      description: "Luxury Apartments in JP Nagar, South Bangalore",
-      imageurl: image4,
-      link: "/projects/learning-fly",
-    },
-    {
-      id: 5,
-      title: " Total Environment Pursuit Of A Radical Rhapsody",
-      description: "Luxury Apartments & Villas in Whitefield, East Bangalore",
-      imageurl: image5,
-      link: "/projects/pursuit",
-    },
-    // { id: 6,
-    //     title: " Total Environment The Magic Faraway Tree",
-    //     description: "Luxury Apartments in Kanakapura Road, South Bangalore",
-    //     imageurl: image6,
-    //     link: "/projects/magic-tree",
-    // },
-
-    {
-      id: 7,
-      title: " Total Environment Workcations",
-      description:
-        "Pre Launch Commercial Development in Whitefield, East Bangalore",
-      imageurl: image7,
-      link: "/projects/workations",
-    },
   ];
 
   return (
