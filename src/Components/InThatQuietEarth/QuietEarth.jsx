@@ -17,7 +17,7 @@ const QuietEarth = () => {
       <QuietEarthSlider />
       <Container fluid>
         <Row>
-          <Col md={9} className="">
+          <Col md={8} className="">
             <div id="overview" className="py-5 py-md-5">
               <Container fluid className="ps-0 pe-0">
                 <Row>
@@ -42,11 +42,11 @@ const QuietEarth = () => {
                         </tr>
                         <tr>
                           <th>Total Land Area</th>
-                          <td>14.5 Acres</td>
+                          <td>28 Acres</td>
                         </tr>
                         <tr>
                           <th>No. of Units</th>
-                          <td>560 Units</td>
+                          <td>736 (Block 01 Units), 324 (Block 02 Units), 55 Villas</td>
                         </tr>
                         <tr>
                           <th>Towers & Blocks</th>
@@ -74,50 +74,24 @@ const QuietEarth = () => {
                       About Total Environment In That Quiet Earth
                     </h2>
                     <p>
-                      Total Environment In That Quiet Earth sits off Hennur Main
-                      Road, in the fast developing North Bangalore area which
-                      has not only emerged as an economic hub, but also as a
-                      front-runner among self-contained suburbs that are great
-                      places to live and work. The presence of good schools,
-                      hospitals, malls, hotels and restaurants in the area and
-                      easy access to the airport enhances its desirability.
+                      Homes at In That Quiet Earth have been created for people
+                      who share our passion for design, quality, and
+                      craftsmanship. Featuring large glass panels that bring the
+                      outdoors in, each home is built with signature natural
+                      materials that age beautifully.
                     </p>
                     <p>
-                      In That Quiet Earth - Each home is designed to address the
-                      needs of a high-quality contemporary lifestyle with a host
-                      of innovative features, and can be customised to suit the
-                      functional needs and aesthetic preferences of individual
-                      families. Using our proprietary eDesign platform, you can
-                      move walls, combine rooms, reconfigure layouts and
-                      redesign almost every aspect of your home so that it is
-                      just right for you.
+                      This offers family homes with a host of innovative
+                      features that are smart and modern, yet inspiring and
+                      inviting.
                     </p>
                     <p>
-                      The two bedroom home is designed around the concept of a
-                      traditional Indian courtyard, with the living and dining
-                      space and the bedrooms opening out towards a double height
-                      garden and deck especially designed to house a full grown
-                      small tree. Simple, clean lines and free flowing spaces
-                      ensure that the interiors don’t feel dated after some
-                      time. An open kitchen allows for conversations, and large
-                      windows and French windows bring in plenty of natural
-                      light. Earthy natural stone ooring and wood windows
-                      provide the warmth that you can always expect from a
-                      typical Total Environment home.
-                    </p>
-                    <p>
-                      The 3 bedroom H20 homes are designed with the kitchen,
-                      living, dining and master bedroom all opening out onto a
-                      double height courtyard garden, especially designed to
-                      hold a full grown small tree, bringing nature into the
-                      heart of the home.
-                    </p>
-                    <p>
-                      The 3 bedroom H20 homes are designed with the kitchen,
-                      living, dining and master bedroom all opening out onto a
-                      double height courtyard garden, especially designed to
-                      hold a full grown small tree, bringing nature into the
-                      heart of the home.
+                      Highlights of the community are the green roofs, terrace
+                      garden, distinctive landscaping along wide, well-connected
+                      paths that are bike and pedestrian-friendly. Development
+                      of the Property will include a Clubhouse with
+                      well-equipped gym, swimming pool, outdoor space, and a
+                      children’s playground.
                     </p>
                   </Col>
                 </Row>
@@ -131,7 +105,7 @@ const QuietEarth = () => {
                   <h2 className="text-center py-2">Floor Plans</h2>
                   <Col md={12}>
                     <QuietEarthMasterPlan />
-                    </Col>
+                  </Col>
                 </Row>
               </Container>
             </div>
@@ -150,7 +124,7 @@ const QuietEarth = () => {
                       that can deal with the pressures of today.
                     </strong>
                   </p>
-                  <Col md={3}>
+                  <Col md={3} xs={6} sm={6}>
                     <ul>
                       <li>Cafe</li>
                       <li>Creche</li>
@@ -162,7 +136,7 @@ const QuietEarth = () => {
                       <li>Swimming Pool</li>
                     </ul>
                   </Col>
-                  <Col md={3}>
+                  <Col md={3} xs={6} sm={6}>
                     <ul>
                       <li>Simulated Golf</li>
                       <li>Playground</li>
@@ -174,7 +148,7 @@ const QuietEarth = () => {
                       <li>Sewage Treatment Plant</li>
                     </ul>
                   </Col>
-                  <Col md={3}>
+                  <Col md={3} xs={6} sm={6}>
                     <ul>
                       <li>Multipurpose Hall</li>
                       <li>Steam Room</li>
@@ -186,7 +160,7 @@ const QuietEarth = () => {
                       <li>Battery Powered Golf Buggies</li>
                     </ul>
                   </Col>{" "}
-                  <Col md={3}>
+                  <Col md={3} xs={6} sm={6}>
                     <ul>
                       <li>Guest Suites</li>
                       <li>Toddler Pool</li>
@@ -214,7 +188,7 @@ const QuietEarth = () => {
               </Container>
             </div>
           </Col>
-          <Col md={3} className="bg-light">
+          <Col md={4} className="bg-light">
             <Contact />
           </Col>
         </Row>

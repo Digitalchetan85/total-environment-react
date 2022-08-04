@@ -1,12 +1,14 @@
 import React from 'react'
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox';
-import Image3 from "../Images/projects/after-rain/floor-plans/v50.png"
+import Image10 from "../Images/projects/after-rain/floor-plans/v50v1-lower.png"
+import Image11 from "../Images/projects/after-rain/floor-plans/v50v1-upper.png"
 
 const Rain4BHKImages = () => {
 
     const images = [
-      { id: 3, imgName: Image3, alt: "", tag: "V50" },
+      { id: 10, imgName: Image10, alt: "", tag: "V50 V1 Lower" },
+      { id: 11, imgName: Image11, alt: "", tag: "V50 V1 Upper" },
     ]
   
     return (

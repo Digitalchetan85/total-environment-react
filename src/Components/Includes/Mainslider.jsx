@@ -127,11 +127,11 @@ const MainSlider = () => {
                       className="img-fluid"
                     />
                   </div>
-                  <div className="w-100 position-absolute bottom-0 start-50 translate-middle-x bg-dark text-white p-2 opacity-75 text-center">
+                  {/* <div className="w-100 position-absolute bottom-0 start-50 translate-middle-x bg-dark text-white p-2 opacity-75 text-center">
                     <Link to={item.link} className="text-decoration-none text-white"><h2 className="opacity-100 fs-5 fw-bold">{item.title}</h2></Link>
                     <h3 className="opacity-100 fs-6 fw-bold">{item.price}</h3>
                     <h3 className="fs-6">{item.specification}</h3>
-                  </div>
+                  </div> */}
                 {/* </Link> */}
               </Col>
             </Row>

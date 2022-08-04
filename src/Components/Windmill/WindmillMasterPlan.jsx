@@ -6,21 +6,21 @@ import WindmillMasterPlanImages from './WindmillMasterPlanImages';
 
 const WindmillMasterPlan = () => {
     
-  const [key, setKey] = useState("all");
+  const [key, setKey] = useState("matster-plan");
   return (
     <div>
       <h2 className="pt-2 pb-2 text-center fs-4">
-        Master & Floor Plans
+        Windmill Floor Plans
       </h2>
       <Tabs
         id="controlled-tab-example"
         activeKey={key}
         onSelect={(k) => setKey(k)}
-        className="mb-3 text-dark"
+        className="mb-3 text-dark justify-content-center"
       >
-        <Tab eventKey="all" title="Master Plan" className="text-dark">
+        {/* <Tab eventKey="all" title="Master Plan" className="text-dark">
           <WindmillMasterPlanImages />
-        </Tab>
+        </Tab> */}
         <Tab eventKey="matster-plan" title="Floor Plan" className="text-dark">
         < PursuitFloorImages/>
         </Tab>

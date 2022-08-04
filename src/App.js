@@ -21,17 +21,17 @@ function App() {
     <Router>
     <Topheader />
     <Routes>
-      <Route path="/" index element={<Home />}></Route>
-      <Route path="/about" element={<About />}></Route>
-      <Route path="/projects/quiet-earth" element={<QuietEarth />}></Route>      
-      <Route path="/projects/pursuit" element={<Pursuit />}></Route>           
-      <Route path="/projects/windmill" element={<Windmill />}></Route>      
+      {/* <Route path="/" index element={<Home />}></Route> */}
+      {/* <Route path="/about" element={<About />}></Route> */}
+      <Route path="/" element={<QuietEarth />}></Route>      
+      {/* <Route path="/projects/pursuit" element={<Pursuit />}></Route>            */}
+      {/* <Route path="/projects/windmill" element={<Windmill />}></Route>      
       <Route path="/projects/rain" element={<Rain />}></Route>    
       <Route path="/projects/learning-fly" element={<LearningFly />}></Route>      
       <Route path="/projects/magic-tree" element={<MagicTree />}></Route> 
       <Route path="/projects/workations-whitefiled" element={<Workations />}></Route>      
       <Route path="/projects/workations-yelhanka" element={<WorkcationsYelhanka />}></Route>
-      <Route path="/contact" element={<Contact />}></Route>
+      <Route path="/contact" element={<Contact />}></Route> */}
     </Routes>  
     {/* <FixedIcons /> */}
     <Footer />

@@ -5,6 +5,7 @@ import QuietEarth3BHKImages from "./QuietEarth3BHKImages";
 import QuietEarth4BHKImages from "./QuietEarth4BHKImages";
 import QuietEarthFloorImages from "./QuietEarthFloorImages";
 import QuietEarthMasterPlanImages from "./QuietEarthMasterPlanImages";
+import QuietEarthNewlaunchImages from "./QuietEarthNewlaunchImages";
 import QuietEarthVillaImages from "./QuietEarthVillaImages";
 
 const QuietEarthMasterPlan = () => {
@@ -23,6 +24,9 @@ const QuietEarthMasterPlan = () => {
         </Tab>
         <Tab eventKey="matster-plan" title="Master Plan" className="text-dark">
           <QuietEarthFloorImages />
+        </Tab>
+        <Tab eventKey="new" title="New Launch 3BHK" className="text-dark">
+          <QuietEarthNewlaunchImages />
         </Tab>
         <Tab eventKey="2bhk" title="2BHK" className="text-dark">
           <QuietEarthFloorImages />

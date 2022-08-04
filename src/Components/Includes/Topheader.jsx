@@ -12,6 +12,7 @@ import {
 import { Link } from "react-router-dom";
 import Logo from "../Images/logo-1.png";
 import Virtual from "../Images/360.png";
+import Modals from "../Includes/Modals";
 
 const Topheader = () => {
   const [show, setShow] = useState(false);
@@ -20,7 +21,7 @@ const Topheader = () => {
 
   return (
     <div className="sticky-top" id="navbar">
-      <div id="top-header" className="p-2 p-md-1 bg-light">
+      {/* <div id="top-header" className="p-2 p-md-1 bg-light">
         <Container>
           <Row className="justify-content-center">
             <Col
@@ -53,7 +54,7 @@ const Topheader = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
       <Navbar
         collapseOnSelect
         expand="lg"
@@ -77,116 +78,29 @@ const Topheader = () => {
               <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/about">
-                About TE
-              </Nav.Link>
-              <NavDropdown
-                title="Total Environment Projects"
-                id="collasible-nav-dropdown1"
-                className="d-block d-md-none"
-              >
-                <NavDropdown.Item as={Link} to="/projects/quiet-earth">
-                  In that Quiet Earth
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-
-                <NavDropdown.Item as={Link} to="/projects/pursuit">
-                  Pursuit Of Radical Rhapsody
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/projects/Windmill">
-                  WindMill Of Your Mind
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/projects/rain">
-                  After the Rain
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/projects/learning-fly">
-                  Learning To Fly
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/projects/magic-tree">
-                  The Magic Faraway Tree
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/projects/workations">
-                  Total Environment WorKcations
-                </NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown
-                className="d-none d-md-block"
-                title="Total Environment Projects"
-                id="collasible-nav-dropdown"
-              >
-                {/* <NavDropdown
-              title="Total Environment Projects"
-              id="collasible-nav-dropdown1"
-              className="d-block d-md-none"
-            > */}
-                <NavDropdown.Item as={Link} to="/projects/quiet-earth">
-                  In that Quiet Earth
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/projects/pursuit">
-                  Pursuit Of Radical Rhapsody
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/projects/windmill">
-                  WindMill Of Your Mind
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/projects/rain">
-                  After the Rain
-                </NavDropdown.Item>
-                {/*<NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/projects/learning-fly">
-                  Learning To Fly
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/projects/magic-tree">
-                  The Magic Faraway Tree
-                </NavDropdown.Item>
-                 <NavDropdown.Divider />
-              <NavDropdown.Item as={Link}
-                        to="/projects/workations">
-              Total Environment Workcations
-              </NavDropdown.Item> */}
-              </NavDropdown>
-
-              <NavDropdown
-                title="Commericial"
-                id="collasible-nav-dropdown1"
-                className=""
-              >
-                <NavDropdown.Item as={Link} to="/projects/workations-yelhanka">
-                  Workation - Yelahanka
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/projects/workations-whitefiled">
-                  Workation - Whitefield
-                </NavDropdown.Item>
-              </NavDropdown>
-
-              <Nav.Link as={Link} to="/contact">
-                Contact Us
-              </Nav.Link>
+              <Nav.Link href="#overview">Overview</Nav.Link>
+              <Nav.Link href="#master-plan">Master Plan</Nav.Link>
+              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link href="#location">Location</Nav.Link>
             </Nav>
-            {/* <Nav>
-              <Nav.Link href="#virtual-tour">
-                <Image src={Virtual} className="img-fluid" alt="" />
-              </Nav.Link>
-            </Nav> */}
+            <Nav>
+              <a
+                href="tel:+919036611010"
+                className="btn btn-dark fw-bold text-white m-1"
+              >
+                <i className="fa fa-phone-volume"></i> Call Now
+              </a>
+            </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
 
-      {/* <Modals
-      show={show}
-      handleClose={handleClose}
-      title="Download Brochure"
-      projectid="57a99891-ec20-472a-b230-187e20fee71f"
-    /> */}
+      <Modals
+        show={show}
+        handleClose={handleClose}
+        title="Download Brochure"
+        projectid="57a99891-ec20-472a-b230-187e20fee71f"
+      />
     </div>
   );
 };

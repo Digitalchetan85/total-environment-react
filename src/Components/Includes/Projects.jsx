@@ -22,20 +22,21 @@ const Projects = () => {
   const projects = [{ 
     id: 1, 
     title: "Total Environment In That Quiet Earth",
-    description: "2, 3 & 4BHK Apartments & Villas",
+    description: "2, 3 & 4Bedroom Homes",
+    location: "At Hennur Road",
     imageurl: image1,
     link: "/projects/quiet-earth"
 
 },
 { id: 2, 
     title: "TE Pursuit of a Radical Rhapsody",
-    description: "Luxury Apartments & Villas in Whitefield, East Bangalore",
+    description: "Luxury Apartments & Villas in Whitefield, Bangalore",
     imageurl: image2,
     link: "/projects/pursuit"
 },
 { id: 3, 
     title: "Total Environment Windmill Of Your Mind",
-    description: "Luxury Apartments & Villas in Whitefield, East Bangalore",
+    description: "Luxury Apartments & Villas in Whitefield, Bangalore",
     imageurl: image3,
     link: "/projects/windmill",
 },
@@ -77,7 +78,7 @@ const Projects = () => {
     <div className="py-3 py-md-5" id="projects">
       <Container fluid className="ps-0 pe-0">
         <Row className="justify-content-center g-3">
-            <h2 className="py-3 text-center fs-3">Total EnvironmentProjects</h2> 
+            <h2 className="py-3 text-center fs-3">Total Environment Projects</h2> 
           {projects.map((project) => (
             <Col md={6} key={project.id}>
               <Card>
@@ -85,13 +86,19 @@ const Projects = () => {
                   {/* <h6 className="position-absolute end-0 bg-danger m-3 rounded-pill text-white p-2 pill-custom">{project.status}</h6> */}
                 <Card.Body className="text-center">
                   <h2 className="fs-5">{project.title}</h2>
-                  <p className="text-center">{project.description}</p>
+                  <p className="text-center">{project.location}</p>
                   <div className="text-center">
+                  <Button
+                    variant="transparant"
+                    className="float-start"
+                  >
+                    {project.description}
+                  </Button>
                   <Button
                     variant="dark"
                     as={Link}
                     to={project.link}
-                    className=""
+                    className="float-end"
                   >
                     Read More
                   </Button>
