@@ -38,7 +38,18 @@ const FixedIcons = () => {
       <div id="mobile-fix" className="d-block d-md-none">
         <div className="container">
           <div className="row">
-            <div className="col-6 bg-primary p-3">
+          <div className="col-4 bg-primary p-3">
+              <div className="text-center">
+                <a href="mailto:" className="bg-primary rounded-circle p-3">
+                  <i
+                    className="fa fa-envelope text-white fs-2"
+                    aria-hidden="true"
+                  ></i>
+                  <span className="d-none d-md-none">Enquire Now</span>
+                </a>
+              </div>
+            </div>
+            <div className="col-4 bg-primary p-3">
               <div className="text-center">
                 <a href="tel:+919036611010" className="bg-primary rounded-circle p-3">
                   <i
@@ -49,7 +60,7 @@ const FixedIcons = () => {
                 </a>
               </div>
             </div>
-            <div className="col-6 bg-primary p-3">
+            <div className="col-4 bg-primary p-3">
               <div className="text-center">
                 <a
                   href="https://wa.me/919036611010?text='Hi! I'm Interested In Total Environment Projects, Bangalore. Please Share Details.'"

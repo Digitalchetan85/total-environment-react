@@ -59,6 +59,62 @@ const QuietEarthPrice = () => {
                   </td>
                 </tr>
                 <tr>
+                  <td>3 BHK (L21A)</td>
+                  <td>2192  </td>
+                  <td>
+                    <Button
+                      variant="dark"
+                      size="sm"
+                      onClick={handleShow}
+                      className="my-3 custom-button"
+                    >
+                      <i className="fa fa-spinner fa-flip fa-download"></i> Price Sheet
+                    </Button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3 BHK (L21B)</td>
+                  <td>2102  </td>
+                  <td>
+                    <Button
+                      variant="dark"
+                      size="sm"
+                      onClick={handleShow}
+                      className="my-3 custom-button"
+                    >
+                      <i className="fa fa-spinner fa-flip fa-download"></i> Price Sheet
+                    </Button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3 BHK (L21V1A)</td>
+                  <td>2102  </td>
+                  <td>
+                    <Button
+                      variant="dark"
+                      size="sm"
+                      onClick={handleShow}
+                      className="my-3 custom-button"
+                    >
+                      <i className="fa fa-spinner fa-flip fa-download"></i> Price Sheet
+                    </Button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3 BHK (L21V1B)</td>
+                  <td>2102  </td>
+                  <td>
+                    <Button
+                      variant="dark"
+                      size="sm"
+                      onClick={handleShow}
+                      className="my-3 custom-button"
+                    >
+                      <i className="fa fa-spinner fa-flip fa-download"></i> Price Sheet
+                    </Button>
+                  </td>
+                </tr>
+                <tr>
                   <td>4 BHK (U20) </td>
                   <td>2890  </td>
                   <td>

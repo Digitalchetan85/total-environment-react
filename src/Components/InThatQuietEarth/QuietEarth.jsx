@@ -1,10 +1,9 @@
 import React from "react";
 import { Col, Container, Row, Table } from "react-bootstrap";
 import Contact from "../Includes/Contact";
+import FixedIcons from "../Includes/FixedIcons";
 import Info from "../Includes/Info";
 import OtherProjectsQuietEarth from "./OtherProjectsQuietEarth";
-import QuietEarthFloorImages from "./QuietEarthFloorImages";
-import QuietEarthGallery from "./QuietEarthGallery";
 import QuietEarthLocation from "./QuietEarthLocation";
 import QuietEarthMasterPlan from "./QuietEarthMasterPlan";
 import QuietEarthPrice from "./QuietEarthPrice";
@@ -17,7 +16,7 @@ const QuietEarth = () => {
       <QuietEarthSlider />
       <Container fluid>
         <Row>
-          <Col md={8} className="">
+          <Col sm={12} md={12} lg={8} className="">
             <div id="overview" className="py-5 py-md-5">
               <Container fluid className="ps-0 pe-0">
                 <Row>
@@ -188,14 +187,14 @@ const QuietEarth = () => {
               </Container>
             </div>
           </Col>
-          <Col md={4} className="bg-light">
+          <Col sm={12} md={12} lg={4} className="bg-light">
             <Contact />
           </Col>
         </Row>
       </Container>
       <OtherProjectsQuietEarth />
 
-      {/* <FixedIcons /> */}
+      <FixedIcons />
     </div>
   );
 };
